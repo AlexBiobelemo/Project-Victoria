@@ -44,7 +44,6 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
 # Create a .env file for configuration
-# (You can copy the contents from .env.example if provided)
 touch .env
 
 Now, open the newly created .env file and add the following configuration:
