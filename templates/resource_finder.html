@@ -1,0 +1,52 @@
+{% extends "layout.html" %}
+
+{% block title %}Resource Finder{% endblock %}
+
+{% block content %}
+<div class="text-center">
+    <h1 class="mb-3">Resource Finder</h1>
+    <p class="lead text-muted">What would you like to learn about today? I'll search our knowledge base for you.</p>
+</div>
+
+<div class="row justify-content-center mt-4">
+    <div class="col-md-10">
+        <form method="post">
+            {{ csrf_token() }}
+            <div class="input-group input-group-lg shadow-sm">
+                <input type="text" class="form-control" name="user_query" placeholder="e.g., 'Styling a webpage' or 'SQL databases'" value="{{ last_query }}" required autofocus>
+                <button class="btn btn-primary" type="submit"><i class="bi bi-search"></i> Find Resources</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+{% if found_topics %}
+<div class="mt-5">
+    <h3 class="mb-4">Found {{ found_topics|length }} relevant topic(s):</h3>
+    {% for topic in found_topics %}
+        <div class="card mb-3">
+            <div class="card-header">
+                <h5>{{ topic.title }}</h5>
+            </div>
+            <div class="card-body">
+                <p class="card-text">{{ topic.description }}</p>
+                <h6 class="text-muted mt-3">Recommended Resources:</h6>
+                {% if topic.resources.count() > 0 %}
+                    <ul class="list-group list-group-flush">
+                    {% for resource in topic.resources.limit(5) %}
+                        <li class="list-group-item">
+                            <a href="{{ resource.url }}" target="_blank">{{ resource.resource_title }}</a>
+                            <span class="badge bg-secondary rounded-pill ms-2">{{ resource.resource_type | title }}</span>
+                        </li>
+                    {% endfor %}
+                    </ul>
+                {% else %}
+                    <p class="text-muted">No default resources listed for this topic yet.</p>
+                {% endif %}
+            </div>
+        </div>
+    {% endfor %}
+</div>
+{% endif %}
+
+{% endblock %}

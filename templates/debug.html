@@ -1,0 +1,40 @@
+{% extends "layout.html" %}
+
+{% block title %}Debug Data{% endblock %}
+
+{% block content %}
+    <h1>Database Content Debugger</h1>
+
+    <hr>
+    <h2>Topics in Database ({{ topics|length }})</h2>
+    {% if topics %}
+        <ul>
+        {% for topic in topics %}
+            <li>
+                <strong>{{ topic.title }} (ID: {{ topic.id }})</strong>
+                <ul>
+                    {% for resource in topic.resources %}
+                        <li>{{ resource.resource_title }}</li>
+                    {% else %}
+                        <li class="text-danger">No resources linked to this topic.</li>
+                    {% endfor %}
+                </ul>
+            </li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p class="text-danger">No topics found in the database.</p>
+    {% endif %}
+
+    <hr>
+    <h2>All Resources in Database ({{ resources|length }})</h2>
+    {% if resources %}
+        <ul>
+        {% for resource in resources %}
+            <li>{{ resource.resource_title }} (Linked to Topic ID: {{ resource.topic_id or 'None' }})</li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p class="text-danger">No resources found in the database.</p>
+    {% endif %}
+{% endblock %}

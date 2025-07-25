@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Notes for {{ learning_path.goal_title }}</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.5; padding: 20px; }
+        h1 { color: #333; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        h2 { color: #555; margin-top: 30px; border-bottom: 1px solid #ddd; padding-bottom: 5px; }
+        p.meta { color: #777; font-size: 0.9em; }
+        .note-content {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-left: 4px solid #0d6efd;
+            margin-bottom: 25px;
+            white-space: pre-wrap; /* Preserves line breaks and spacing */
+        }
+        .note-content p, .note-content div, .note-content span { margin: 0; }
+    </style>
+</head>
+<body>
+    <h1>Notes for: {{ learning_path.goal_title }}</h1>
+    <p class="meta">Exported by: {{ user.username }} on {{ current_time }}</p>
+
+    <hr>
+    {% for note, step in notes_query %}
+        <h2>{{ step.step_number }}. {{ step.step_title }}</h2>
+        <div class="note-content">
+            {{ note.content | <sa>  </sa>fe }}
+        </div>
+    {% else %}
+        <p>No notes found for this learning path.</p>
+    {% endfor %}
+
+</body>
+</html>

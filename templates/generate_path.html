@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block title %}Generate Learning Path{% endblock %}
+
+{% block content %}
+    <h1 class="text-center mb-4">Define Your Learning Goal</h1>
+    <p class="text-center text-muted mb-4">What do you want to learn? (e.g., "Become a Web Developer", "Learn Python for Data Science")</p>
+
+    <form action="{{ url_for('generate_path') }}" method="post">
+        {{ csrf_token() }}
+            <div class="mb-3">
+            <label for="goal_title" class="form-label visually-hidden">My Learning Goal:</label>
+            <textarea class="form-control form-control-lg" id="goal_title" name="goal_title" rows="3" placeholder="Describe your learning goal in detail. For example: 'I want to become a backend developer, focusing on Python and databases. I already know some basic HTML.'" required autofocus></textarea>
+
+        </div>
+
+        <div class="mb-4">
+            <label for="known_topics" class="form-label">Topics I Already Know (comma-separated, e.g., HTML Basics, Git & GitHub)</label>
+            {# Pre-fill the textarea with known_topics from the user profile #}
+            <textarea class="form-control" id="known_topics" name="known_topics" rows="3" placeholder="e.g., Introduction to HTML, Python Basics, SQL Fundamentals">{{ prefill_known_topics }}</textarea>
+            <div class="form-text">List topics you're already familiar with to get a more tailored path.</div>
+        </div>
+
+        <button type="submit" class="btn btn-success w-100 btn-lg">Generate Path</button>
+    </form>
+{% endblock %}

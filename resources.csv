@@ -1,0 +1,701 @@
+resource_title,url,resource_type,topic_id
+"Introduction to Algorithms by CLRS","https://mitpress.mit.edu/9780262033848/introduction-to-algorithms/",Book,100
+"Algorithms Course by Stanford","https://www.coursera.org/learn/algorithms-part1",Course,100
+"Sorting Algorithm Visualization","https://www.cs.usfca.edu/~galles/visualization/Algorithms.html",Tutorial,100
+"Algorithm Pseudocode","https://www.algorithmist.com/index.php/Main_Page",Article,100
+"Algorithm Challenge Platform","https://leetcode.com/",Tutorial,100
+"Data Structures Basics","https://www.geeksforgeeks.org/data-structures/",Article,101
+"Linked List Tutorial","https://www.tutorialspoint.com/data_structures_algorithms/linked_list_program_in_c.htm",Tutorial,101
+"Tree Data Structure Video","https://www.youtube.com/watch?v=oSWTXtMglKE",Video,101
+"Data Structures Book","https://www.pearson.com/en-us/subject-catalog/p/data-structures-and-algorithms/P200000003030/9780134287479",Book,101
+"Data Structures Course","https://www.edx.org/course/data-structures",Course,101
+"OOP Concepts Explained","https://www.w3schools.com/java/java_oop.asp",Article,102
+"Java OOP Tutorial","https://www.javatpoint.com/java-oop-concepts",Tutorial,102
+"OOP Crash Course","https://www.youtube.com/watch?v=klcIklsWqMw",Video,102
+"OOP Principles Video","https://www.youtube.com/watch?v=klcIklsWqMw",Video,102
+"OOP Design Tutorial","https://refactoring.guru/design-patterns/book",Tutorial,102
+"SQL Basics","https://www.postgresqltutorial.com/",Tutorial,103
+"Database Design Guide","https://www.lucidchart.com/pages/database-diagram/database-design",Article,103
+"SQL for Beginners Video","https://www.youtube.com/watch?v=7S_tz1z_5bA",Video,103
+"Database Indexing","https://www.postgresql.org/docs/current/indexes.html",Article,103
+"SQL Practice Platform","https://sqlzoo.net/",Tutorial,103
+"Computer Networks Tutorial","https://www.javatpoint.com/computer-network",Article,104
+"Networking Protocols Course","https://www.khanacademy.org/computing/computers-and-internet/xcae6f4a7ff015e7d:the-internet/xcae6f4a7ff015e7d:transporting-packets/a/the-internet-transporting-packets",Course,104
+"Network Simulation Tool","https://www.net-sim.org/",Tutorial,104
+"Network Security Guide","https://www.cisco.com/c/en/us/solutions/security/index.html",Article,104
+"Network Simulation Software","https://www.gns3.com/",Tutorial,104
+"AI Fundamentals","https://www.coursera.org/learn/machine-learning",Course,105
+"Machine Learning Book","https://www.deeplearningbook.org/",Book,105
+"AI Explained Video","https://www.youtube.com/watch?v=5qX4PyvSTcA",Video,105
+"AI Ethics","https://www.nature.com/articles/s42256-019-0052-2",Article,105
+"AI Coding Tutorial","https://www.tensorflow.org/tutorials",Tutorial,105
+"Cybersecurity Basics","https://www.khanacademy.org/computing/computers-and-internet/xcae6f4a7ff015e7d:security-and-cryptography",Article,106
+"Encryption Tutorial","https://www.tutorialspoint.com/cryptography/index.htm",Tutorial,106
+"Cybersecurity Course","https://www.coursera.org/learn/cybersecurity-basics",Course,106
+"Cybersecurity Certifications","https://www.comptia.org/certifications/security",Article,106
+"Cyber Range Training","https://www.cyberranges.com/",Tutorial,106
+"OS Concepts","https://www.tutorialspoint.com/operating_system/index.htm",Article,107
+"Process Management Video","https://www.youtube.com/watch?v=7n8L1Y0i5o8",Video,107
+"OS Simulation Tool","https://www.os-book.com/",Tutorial,107
+"OS Virtualization","https://www.virtualbox.org/",Article,107
+"OS Kernel Development","https://www.kernel.org/doc/html/latest/",Tutorial,107
+"HTML Basics","https://www.w3schools.com/html/",Article,108
+"CSS Tutorial","https://www.w3schools.com/css/",Tutorial,108
+"Web Dev Video Series","https://www.youtube.com/watch?v=UB1O30fR-EE",Video,108
+"Web Accessibility","https://www.w3.org/WAI/fundamentals/accessibility-intro/",Article,108
+"Web Dev Bootcamp","https://www.theodinproject.com/",Course,108
+"Cloud Computing Guide","https://aws.amazon.com/getting-started/",Article,109
+"AWS Free Tier Tutorial","https://aws.amazon.com/free/",Tutorial,109
+"Cloud Basics Video","https://www.youtube.com/watch?v=7wN4Q8X7bS0",Video,109
+"Cloud Cost Management","https://aws.amazon.com/aws-cost-management/",Article,109
+"Cloud Security Best Practices","https://cloudsecurityalliance.org/",Tutorial,109
+"Algorithm Analysis","https://www.geeksforgeeks.org/analysis-of-algorithms/",Article,110
+"Dynamic Programming Tutorial","https://www.programiz.com/dsa/dynamic-programming",Tutorial,110
+"Algo Video Lecture","https://www.youtube.com/watch?v=0IAPZzGSbME",Video,110
+"Algorithm Optimization","https://www.hackerearth.com/practice/algorithms/",Tutorial,110
+"Complexity Analysis Video","https://www.youtube.com/watch?v=0IAPZzGSbME",Video,110
+"Graph Theory Basics","https://www.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/representing-graphs",Article,111
+"Graph Algorithms Course","https://www.coursera.org/learn/algorithms-graphs-data-structures",Course,111
+"Graph Visualization Tool","https://graphonline.ru/en/",Tutorial,111
+"Graph Theory Course","https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/",Course,111
+"Graph Theory Book","https://www.springer.com/gp/book/9783319056533",Book,111
+"Functional Programming","https://www.haskell.org/tutorial/",Article,112
+"Haskell Tutorial","https://www.tutorialspoint.com/haskell/index.htm",Tutorial,112
+"FP Video Series","https://www.youtube.com/watch?v=0xLJBxD7Dj0",Video,112
+"FP Concepts","https://www.functionalprogramming.com/",Article,112
+"FP in Scala Tutorial","https://www.scala-lang.org/docu/files/ScalaByExample.pdf",Tutorial,112
+"Parallel Computing Guide","https://www.mpi-forum.org/docs/",Article,113
+"MPI Tutorial","https://mpitutorial.com/",Tutorial,113
+"Parallel Programming Video","https://www.youtube.com/watch?v=4C2z1LUBkQE",Video,113
+"Parallel Tools","https://www.openmp.org/",Article,113
+"Parallel Computing Course","https://www.coursera.org/learn/parallel-computing",Course,113
+"Compiler Design","https://www.javatpoint.com/compiler-design-tutorial",Article,114
+"Compiler Construction Course","https://www.coursera.org/learn/compiler-construction",Course,114
+"Compiler Video Lecture","https://www.youtube.com/watch?v=1j4mCIpVu_g",Video,114
+"Compiler Optimization","https://www.cs.cornell.edu/courses/cs6120/2020fa/",Article,114
+"Compiler Parsing Guide","https://www.cs.cornell.edu/~appel/modern/c0/",Article,114
+"Software Engineering Basics","https://www.tutorialspoint.com/software_engineering/index.htm",Article,115
+"Agile Methodology Tutorial","https://www.atlassian.com/agile",Tutorial,115
+"SE Video Series","https://www.youtube.com/watch?v=0m8s3X2DvsM",Video,115
+"SE Project Management","https://www.pmi.org/learning/library/project-management-software-engineering-6690",Article,115
+"Software Dev Lifecycle","https://www.tutorialspoint.com/software_engineering/software_development_life_cycle.htm",Article,115
+"Internet of Things Overview","https://www.postscapes.com/internet-of-things-iot/",Article,116
+"IoT Development Tutorial","https://www.tutorialspoint.com/iot/index.htm",Tutorial,116
+"IoT Basics Video","https://www.youtube.com/watch?v=2N7m0mK8nG4",Video,116
+"IoT Security Tutorial","https://www.geeksforgeeks.org/iot-security/",Tutorial,116
+"IoT Hardware Guide","https://www.arduino.cc/en/Guide/HomePage",Article,116
+"Mobile Computing Guide","https://www.geeksforgeeks.org/mobile-computing/",Article,117
+"Android Development Course","https://www.coursera.org/learn/android-app-development",Course,117
+"Mobile App Video Tutorial","https://www.youtube.com/watch?v=fis1TE-KIbs",Video,117
+"Mobile Testing","https://www.browserstack.com/guide/mobile-testing",Tutorial,117
+"Mobile UI Design","https://www.interaction-design.org/literature/topics/mobile-ui-design",Article,117
+"Quantum Computing Intro","https://www.ibm.com/quantum-computing/",Article,118
+"Quantum Tutorial","https://qiskit.org/documentation/tutorials.html",Tutorial,118
+"Quantum Video Lecture","https://www.youtube.com/watch?v=JhHMJCUmq28",Video,118
+"Quantum Hardware","https://www.ibm.com/quantum/hardware",Article,118
+"Quantum Programming","https://qiskit.org/textbook/ch-prerequisites/index.html",Tutorial,118
+"Blockchain Basics","https://www.investopedia.com/terms/b/blockchain.asp",Article,119
+"Ethereum Tutorial","https://www.tutorialspoint.com/ethereum/index.htm",Tutorial,119
+"Blockchain Course","https://www.coursera.org/learn/cryptocurrency",Course,119
+"Blockchain Development","https://www.trufflesuite.com/",Tutorial,119
+"Blockchain Security","https://www.investopedia.com/terms/b/blockchain-security.asp",Article,119
+"Computer Graphics Fundamentals","https://www.scratchapixel.com/",Article,120
+"OpenGL Tutorial","https://learnopengl.com/",Tutorial,120
+"Graphics Video Series","https://www.youtube.com/watch?v=0fK8k7vXJ1o",Video,120
+"Graphics Shader Tutorial","https://www.khronos.org/opengl/wiki/Shader_Tutorial",Tutorial,120
+"Graphics Shaders","https://www.khronos.org/opengl/wiki/Shader_Tutorial",Tutorial,120
+"Human-Computer Interaction","https://www.interaction-design.org/literature/topics/human-computer-interaction",Article,121
+"UX Design Course","https://www.coursera.org/learn/user-experience-design",Course,121
+"HCI Video Tutorial","https://www.youtube.com/watch?v=3a5Xq2wV9m8",Video,121
+"HCI Research","https://www.interaction-design.org/literature",Article,121
+"HCI Principles","https://www.nngroup.com/articles/hci/",Article,121
+"Distributed Systems Guide","https://www.geeksforgeeks.org/distributed-system/",Article,122
+"Distributed Computing Tutorial","https://www.tutorialspoint.com/distributed_computing/index.htm",Tutorial,122
+"Distributed Systems Video","https://www.youtube.com/watch?v=8yY4sR4Z3pM",Video,122
+"Distributed Algorithms","https://www.distributedcomputing.info/",Article,122
+"Distributed Consensus","https://raft.github.io/",Tutorial,122
+"Robotics Basics","https://www.khanacademy.org/computing/computer-programming/robotics",Article,123
+"Robot Programming Tutorial","https://www.ros.org/tutorials/",Tutorial,123
+"Robotics Video Series","https://www.youtube.com/watch?v=6qK__G5l6c8",Video,123
+"Robotics Kits","https://www.sparkfun.com/categories/50",Article,123
+"Robotics Control Systems","https://www.mathworks.com/help/robotics/",Tutorial,123
+"Natural Language Processing","https://www.nltk.org/book/",Book,124
+"NLP Tutorial","https://www.tutorialspoint.com/natural_language_processing/index.htm",Tutorial,124
+"NLP Video Lecture","https://www.youtube.com/watch?v=RLW4S4q2lHM",Video,124
+"NLP Datasets","https://www.nltk.org/data.html",Article,124
+"NLP Sentiment Analysis","https://www.nltk.org/api/nltk.sentiment.html",Article,124
+"Computer Vision Intro","https://opencv.org/",Article,125
+"OpenCV Tutorial","https://docs.opencv.org/master/d6/d00/tutorial_py_root.html",Tutorial,125
+"Vision Video Series","https://www.youtube.com/watch?v=oXlwWbU8l2o",Video,125
+"Vision Processing","https://www.pyimagesearch.com/",Tutorial,125
+"Computer Vision Course","https://www.coursera.org/learn/computer-vision-basics",Course,125
+"Software Testing Guide","https://www.guru99.com/software-testing-introduction.html",Article,126
+"Testing Tutorial","https://www.tutorialspoint.com/software_testing/index.htm",Tutorial,126
+"Testing Video Course","https://www.youtube.com/watch?v=8X2R82rP_Gw",Video,126
+"Testing Automation","https://www.jenkins.io/doc/tutorials/",Tutorial,126
+"Testing Frameworks","https://www.selenium.dev/documentation/",Article,126
+"DevOps Basics","https://www.atlassian.com/devops",Article,127
+"DevOps Tutorial","https://www.tutorialspoint.com/devops/index.htm",Tutorial,127
+"DevOps Video Series","https://www.youtube.com/watch?v=5Vq3sA3j9sA",Video,127
+"DevOps Tools","https://www.docker.com/resources/what-container",Article,127
+"DevOps Pipeline Tutorial","https://www.jenkins.io/doc/",Tutorial,127
+"Game Development Intro","https://www.gamedevelopment.tutsplus.com/",Article,128
+"Unity Tutorial","https://learn.unity.com/",Tutorial,128
+"Game Dev Video","https://www.youtube.com/watch?v=wc8gC7zPgCI",Video,128
+"Game Design Theory","https://www.gamasutra.com/topic/game-design",Article,128
+"Game Physics Tutorial","https://www.gamasutra.com/topic/physics",Tutorial,128
+"Embedded Systems Guide","https://www.embedded.com/",Article,129
+"Embedded Tutorial","https://www.tutorialspoint.com/embedded_systems/index.htm",Tutorial,129
+"Embedded Video Lecture","https://www.youtube.com/watch?v=5q4sF-q0qMc",Video,129
+"Embedded Debugging","https://www.segger.com/products/debug-probes/j-link/",Tutorial,129
+"Embedded C Guide","https://www.embedded.com/design/prototyping-and-development/4006438/Introduction-to-embedded-C",Article,129
+"Big Data Basics","https://www.datacamp.com/community/tutorials/big-data-tutorial",Article,130
+"Hadoop Tutorial","https://www.tutorialspoint.com/hadoop/index.htm",Tutorial,130
+"Big Data Video","https://www.youtube.com/watch?v=7o3u1wl2IG4",Video,130
+"Big Data Frameworks","https://hadoop.apache.org/docs/stable/",Article,130
+"Big Data with Spark","https://spark.apache.org/docs/latest/",Tutorial,130
+"Augmented Reality Intro","https://www.arpost.co/2020/08/14/what-is-augmented-reality/",Article,131
+"AR Development Tutorial","https://www.tutorialspoint.com/augmented_reality/index.htm",Tutorial,131
+"AR Video Series","https://www.youtube.com/watch?v=5o9WjB1vO7w",Video,131
+"AR Development Tools","https://developers.google.com/ar/develop",Tutorial,131
+"AR SDK Tutorial","https://developers.google.com/ar",Tutorial,131
+"Virtual Reality Basics","https://www.vrs.org.uk/virtual-reality-basics/",Article,132
+"VR Development with Unity","https://learn.unity.com/course/create-with-vr",Tutorial,132
+"VR Video Tutorial","https://www.youtube.com/watch?v=7sOa5vX_6yI",Video,132
+"VR Design Principles","https://www.vrguru.com/design-principles/",Article,132
+"VR Interaction Design","https://www.vrchat.com/docs",Article,132
+"Machine Learning Algorithms","https://www.coursera.org/learn/machine-learning",Course,133
+"ML with Python Tutorial","https://www.datacamp.com/community/tutorials/machine-learning-python",Tutorial,133
+"ML Video Lecture","https://www.youtube.com/watch?v=PkZNo7MFNFg",Video,133
+"ML Frameworks","https://scikit-learn.org/stable/",Article,133
+"ML Deep Dive","https://www.deeplearning.ai/the-batch/",Article,133
+"Cryptology Fundamentals","https://www.crypto-textbook.com/",Book,134
+"Cipher Tutorial","https://www.geeksforgeeks.org/caesar-cipher/",Tutorial,134
+"Cryptology Video","https://www.youtube.com/watch?v=9T0C3jnxImA",Video,134
+"Cryptology History","https://www.britannica.com/technology/cryptology",Article,134
+"Cryptology Standards","https://csrc.nist.gov/publications/detail/sp/800-57pt1/rev-5/final",Article,134
+"Data Mining Basics","https://www.tutorialspoint.com/data_mining/index.htm",Article,135
+"Clustering Tutorial","https://www.javatpoint.com/clustering-in-data-mining",Tutorial,135
+"Data Mining Video","https://www.youtube.com/watch?v=0vL4Zv2xN8c",Video,135
+"Data Mining Software","https://www.oracle.com/data-mining/",Article,135
+"Data Mining Tools","https://www.knime.com/",Article,135
+"Web Security Guide","https://owasp.org/www-project-top-ten/",Article,136
+"XSS Prevention Tutorial","https://www.acunetix.com/blog/articles/preventing-xss-cross-site-scripting/",Tutorial,136
+"Security Video Course","https://www.youtube.com/watch?v=qbql1oX4EQI",Video,136
+"Web Security Standards","https://www.w3.org/Security/",Article,136
+"Web Security Tools","https://www.owasp.org/",Article,136
+"Systems Programming Intro","https://www.tutorialspoint.com/assembly_programming/index.htm",Article,137
+"C Programming Tutorial","https://www.w3schools.com/c/",Tutorial,137
+"Systems Video Lecture","https://www.youtube.com/watch?v=6F5g3nW8p_Q",Video,137
+"Systems Performance","https://www.brendangregg.com/blog/2017-08-08/linux-load-averages.html",Article,137
+"Systems Assembly Guide","https://www.tutorialspoint.com/assembly_programming/assembly_basic_syntax.htm",Article,137
+"Automata Theory Basics","https://www.javatpoint.com/automata-tutorial",Article,138
+"FSM Tutorial","https://www.tutorialspoint.com/automata_theory/finite_automata_introduction.htm",Tutorial,138
+"Automata Video","https://www.youtube.com/watch?v=5-7dK3c-3BE",Video,138
+"Automata Visualization","https://www.jflap.org/",Tutorial,138
+"Automata Course","https://www.coursera.org/learn/automata",Course,138
+"Information Retrieval Guide","https://nlp.stanford.edu/IR-book/",Book,139
+"Search Engine Tutorial","https://www.geeksforgeeks.org/search-algorithms/",Tutorial,139
+"IR Video Lecture","https://www.youtube.com/watch?v=9J6IYI9e1-x",Video,139
+"IR Search Engines","https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html",Tutorial,139
+"IR Indexing Tutorial","https://www.searchtools.com/info/data-mining/indexing.html",Tutorial,139
+"Computer Architecture Basics","https://www.tutorialspoint.com/computer_logical_organization/index.htm",Article,140
+"CPU Design Tutorial","https://www.geeksforgeeks.org/computer-organization-and-architecture/",Tutorial,140
+"Architecture Video","https://www.youtube.com/watch?v=W4lP1iZ2KkM",Video,140
+"Architecture Design","https://www.tutorialspoint.com/computer_architecture/index.htm",Tutorial,140
+"Architecture Pipelining","https://www.tutorialspoint.com/computer_architecture/pipelining.htm",Tutorial,140
+"Programming Languages Intro","https://www.tutorialspoint.com/compiler_design/index.htm",Article,141
+"Language Design Tutorial","https://www.javatpoint.com/compiler-design-phases",Tutorial,141
+"PL Video Series","https://www.youtube.com/watch?v=1j4mCIpVu_g",Video,141
+"Language Parsing","https://www.antlr.org/",Tutorial,141
+"Language Syntax Guide","https://www.w3.org/standards/techs/grammar",Article,141
+"Database Security Guide","https://www.geeksforgeeks.org/database-security/",Article,142
+"SQL Security Tutorial","https://www.postgresqltutorial.com/postgresql-security/",Tutorial,142
+"DB Security Video","https://www.youtube.com/watch?v=5L6X8iLh8x8",Video,142
+"DB Backup Strategies","https://www.postgresql.org/docs/current/backup.html",Tutorial,142
+"DB Encryption Tutorial","https://www.oracle.com/security/database-security.html",Tutorial,142
+"Network Security Basics","https://www.tutorialspoint.com/network_security/index.htm",Article,143
+"Firewall Tutorial","https://www.geeksforgeeks.org/introduction-of-firewall-in-computer-network/",Tutorial,143
+"Network Security Video","https://www.youtube.com/watch?v=6tNs3r2yR9Q",Video,143
+"Network Monitoring","https://www.wireshark.org/",Tutorial,143
+"Network VPN Guide","https://www.tutorialspoint.com/vpn/index.htm",Tutorial,143
+"Software Architecture Guide","https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/",Book,144
+"Microservices Tutorial","https://www.nginx.com/blog/introduction-to-microservices/",Tutorial,144
+"Arch Video Lecture","https://www.youtube.com/watch?v=2t1FZ4i5_KA",Video,144
+"Architecture Patterns","https://microservices.io/patterns/index.html",Article,144
+"Microservices Patterns","https://microservices.io/patterns/index.html",Article,144
+"Ethical Hacking Basics","https://www.kali.org/docs/",Article,145
+"Pentesting Tutorial","https://www.tutorialspoint.com/ethical_hacking/index.htm",Tutorial,145
+"Hacking Video Course","https://www.youtube.com/watch?v=5X7l2N1v1eA",Video,145
+"Hacking Challenges","https://www.hackthebox.com/",Tutorial,145
+"Hacking Tools List","https://www.hackingtutorials.org/tools/",Article,145
+"Data Compression Guide","https://www.tutorialspoint.com/data_compression/index.htm",Article,146
+"Huffman Coding Tutorial","https://www.geeksforgeeks.org/huffman-coding-greedy-algo-3/",Tutorial,146
+"Compression Video","https://www.youtube.com/watch?v=JsTptu56GM8",Video,146
+"Compression Techniques","https://www.w3schools.com/tags/att_img_src.asp",Article,146
+"Compression Algorithms","https://www.huffmancoding.com/",Tutorial,146
+"Quantum Cryptography Intro","https://www.nature.com/subjects/quantum-cryptography",Article,147
+"BB84 Protocol Tutorial","https://qiskit.org/textbook/ch-algorithms/quantum-key-distribution.html",Tutorial,147
+"Quantum Crypto Video","https://www.youtube.com/watch?v=AQjW7_a5YVM",Video,147
+"Quantum Security","https://www.nature.com/articles/s41586-020-03081-4",Article,147
+"Quantum Key Distribution","https://www.nature.com/articles/s41586-020-03081-4",Article,147
+"Edge Computing Basics","https://www.geeksforgeeks.org/edge-computing/",Article,148
+"Edge Tutorial","https://www.tutorialspoint.com/edge_computing/index.htm",Tutorial,148
+"Edge Video Lecture","https://www.youtube.com/watch?v=9Q4S8aV8qP8",Video,148
+"Edge Deployment","https://www.edgeimpulse.com/",Tutorial,148
+"Edge IoT Tutorial","https://www.edgeir.com/",Tutorial,148
+"Mobile Security Guide","https://www.owasp.org/index.php/Mobile_Top_10_2016-Top_10",Article,149
+"App Hardening Tutorial","https://www.tutorialspoint.com/mobile_security/index.htm",Tutorial,149
+"Mobile Security Video","https://www.youtube.com/watch?v=8e5zL8x1tYc",Video,149
+"Mobile Privacy","https://www.eff.org/issues/mobile-privacy",Article,149
+"Mobile App Security","https://www.appsecusa.org/",Article,149
+"Game AI Fundamentals","https://www.gamasutra.com/topic/game-ai",Article,150
+"Pathfinding Tutorial","https://www.raywenderlich.com/1488-a-guide-to-ai-pathfinding",Tutorial,150
+"Game AI Video","https://www.youtube.com/watch?v=pc_8XgX7YNE",Video,150
+"Game AI Tools","https://www.unrealengine.com/en-US/ai",Article,150
+"Game AI Pathfinding","https://www.redblobgames.com/pathfinding/",Tutorial,150
+"Cloud Security Guide","https://aws.amazon.com/security/",Article,151
+"IAM Tutorial","https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html",Tutorial,151
+"Cloud Security Video","https://www.youtube.com/watch?v=5a0g_LEF1lE",Video,151
+"Cloud Compliance","https://www.iso.org/standard/54534.html",Article,151
+"Cloud IAM Video","https://www.youtube.com/watch?v=5a0g_LEF1lE",Video,151
+"Real-Time Systems Intro","https://www.tutorialspoint.com/real_time_systems/index.htm",Article,152
+"Scheduling Tutorial","https://www.geeksforgeeks.org/real-time-systems/",Tutorial,152
+"RT Video Lecture","https://www.youtube.com/watch?v=9Q4S8aV8qP8",Video,152
+"Real-Time OS","https://www.qnx.com/en/industries/automotive/real-time-operating-systems",Article,152
+"Real-Time Scheduling","https://www.real-time-systems.com/",Article,152
+"Bioinformatics Basics","https://www.ncbi.nlm.nih.gov/guide/",Article,153
+"Genomics Tutorial","https://www.tutorialspoint.com/bioinformatics/index.htm",Tutorial,153
+"Bio Video Series","https://www.youtube.com/watch?v=0fKUqmpV-j0",Video,153
+"Bio Tools","https://www.biostars.org/",Article,153
+"Bioinformatics Tools","https://www.ensembl.org/info/docs/tools/index.html",Article,153
+"Computer Forensics Guide","https://www.sans.org/cyber-security-courses/digital-forensics/",Article,154
+"Forensics Tutorial","https://www.tutorialspoint.com/computer_forensics/index.htm",Tutorial,154
+"Forensics Video","https://www.youtube.com/watch?v=7sOa5vX_6yI",Video,154
+"Forensics Standards","https://www.nist.gov/itl/ssd/digital-forensics",Article,154
+"Forensics Techniques","https://www.forensicmag.com/",Article,154
+"Web Performance Basics","https://developers.google.com/web/fundamentals/performance/",Article,155
+"Caching Tutorial","https://www.tutorialspoint.com/web_performance/index.htm",Tutorial,155
+"Performance Video","https://www.youtube.com/watch?v=0fKUqmpV-j0",Video,155
+"Web Performance Metrics","https://web.dev/learn/performance/",Article,155
+"Web Performance Tools","https://www.webpagetest.org/",Article,155
+"Neural Networks Guide","https://www.deeplearning.ai/",Article,156
+"Deep Learning Tutorial","https://www.tutorialspoint.com/deep_learning/index.htm",Tutorial,156
+"NN Video Lecture","https://www.youtube.com/watch?v=aircAruvnKk",Video,156
+"Neural Networks Tutorial","https://www.tensorflow.org/tutorials/keras",Tutorial,156
+"Neural Networks Book","https://www.deeplearningbook.org/contents/mlp.html",Book,156
+"Distributed Databases Intro","https://www.postgresql.org/docs/",Article,157
+"Replication Tutorial","https://www.tutorialspoint.com/distributed_database/index.htm",Tutorial,157
+"DB Video Series","https://www.youtube.com/watch?v=5L6X8iLh8x8",Video,157
+"Distributed DB Tools","https://www.cockroachlabs.com/docs/stable/",Article,157
+"Distributed DB Replication","https://www.mongodb.com/docs/manual/replication/",Tutorial,157
+"Quantum Algorithms Basics","https://qiskit.org/textbook/ch-algorithms/index.html",Article,158
+"Grover's Algorithm Tutorial","https://www.geeksforgeeks.org/grovers-algorithm/",Tutorial,158
+"Quantum Video","https://www.youtube.com/watch?v=JUq1Y4B0r5A",Video,158
+"Quantum Computing Book","https://www.springer.com/gp/book/9783319042021",Book,158
+"Quantum Algorithm Book","https://www.springer.com/gp/book/9783319042021",Book,158
+"Software Metrics Guide","https://www.tutorialspoint.com/software_engineering/software_metrics.htm",Article,159
+"Quality Metrics Tutorial","https://www.geeksforgeeks.org/software-engineering-software-metrics/",Tutorial,159
+"Metrics Video","https://www.youtube.com/watch?v=2t1FZ4i5_KA",Video,159
+"Metrics Dashboards","https://www.datadog.com/learn/?category=metrics",Article,159
+"Software Metrics Tools","https://www.sonarqube.org/",Article,159
+"Internet Protocols Intro","https://www.tutorialspoint.com/data_communication_computer_network/index.htm",Article,160
+"TCP Tutorial","https://www.geeksforgeeks.org/computer-network-tcp/",Tutorial,160
+"Protocols Video","https://www.youtube.com/watch?v=6F5g3nW8p_Q",Video,160
+"IP Configuration","https://www.tutorialspoint.com/ipv6/index.htm",Tutorial,160
+"IP Addressing Tutorial","https://www.tutorialspoint.com/ipv4/index.htm",Tutorial,160
+"Virtualization Basics","https://www.vmware.com/topics/glossary/content/virtualization.html",Article,161
+"VM Tutorial","https://www.tutorialspoint.com/virtualization/index.htm",Tutorial,161
+"Virtualization Video","https://www.youtube.com/watch?v=7sOa5vX_6yI",Video,161
+"Virtualization Security","https://www.vmware.com/security.html",Article,161
+"VMware Virtualization","https://www.vmware.com/support/pubs/",Article,161
+"Autonomous Systems Guide","https://www.ros.org/",Article,162
+"Drone Programming Tutorial","https://www.tutorialspoint.com/drone_programming/index.htm",Tutorial,162
+"Autonomous Video","https://www.youtube.com/watch?v=0fKUqmpV-j0",Video,162
+"Autonomous AI","https://www.nvidia.com/en-us/self-driving-cars/",Article,162
+"Autonomous Drone Guide","https://www.dji.com/support",Article,162
+"Data Visualization Intro","https://www.tutorialspoint.com/data_visualization/index.htm",Article,163
+"D3.js Tutorial","https://www.d3js.org/",Tutorial,163
+"Visualization Video","https://www.youtube.com/watch?v=7sOa5vX_6yI",Video,163
+"Data Viz Tools","https://www.tableau.com/learn/training",Tutorial,163
+"Data Viz with Tableau","https://www.tableau.com/learn/training",Tutorial,163
+"High-Performance Computing","https://www.hpcwire.com/",Article,164
+"Parallel Tutorial","https://www.tutorialspoint.com/high_performance_computing/index.htm",Tutorial,164
+"HPC Video","https://www.youtube.com/watch?v=0fKUqmpV-j0",Video,164
+"HPC Applications","https://www.hpcwire.com/hpc-applications/",Article,164
+"HPC Clusters","https://www.top500.org/",Article,164
+"Privacy Technologies Guide","https://www.dataprotectionreport.com/",Article,165
+"Anonymization Tutorial","https://www.tutorialspoint.com/data_privacy/index.htm",Tutorial,165
+"Privacy Video","https://www.youtube.com/watch?v=5L6X8iLh8x8",Video,165
+"Privacy Tools","https://www.privacytools.io/",Article,165
+"Privacy Regulations","https://gdpr.eu/",Article,165
+"Robotic Process Automation","https://www.uipath.com/rpa/robotic-process-automation",Article,166
+"RPA Tutorial","https://www.tutorialspoint.com/rpa/index.htm",Tutorial,166
+"RPA Video","https://www.youtube.com/watch?v=5a0g_LEF1lE",Video,166
+"RPA Platforms","https://www.uipath.com/rpa-platform",Article,166
+"RPA Automation Tools","https://www.automationanywhere.com/",Article,166
+"Quantum Machine Learning","https://pennylane.ai/qml/",Article,167
+"Quantum ML Tutorial","https://www.geeksforgeeks.org/quantum-machine-learning/",Tutorial,167
+"QML Video","https://www.youtube.com/watch?v=JUq1Y4B0r5A",Video,167
+"Quantum ML Tools","https://pennylane.ai/qml/tutorials.html",Tutorial,167
+"Quantum ML Research","https://arxiv.org/abs/2106.04560",Article,167
+"Green Computing Basics","https://www.energy.gov/eere/femp/green-computing",Article,168
+"Energy Efficiency Tutorial","https://www.tutorialspoint.com/green_computing/index.htm",Tutorial,168
+"Green IT Video","https://www.youtube.com/watch?v=9Q4S8aV8qP8",Video,168
+"Green IT Certifications","https://www.greenbiz.com/article/top-10-green-it-certifications-2025",Article,168
+"Green IT Standards","https://www.energystar.gov/",Article,168
+"Cloud Architecture Guide","https://www.awsarchitectureblog.com/",Article,169
+"Cloud Design Tutorial","https://www.tutorialspoint.com/cloud_computing/index.htm",Tutorial,169
+"Arch Video","https://www.youtube.com/watch?v=2t1FZ4i5_KA",Video,169
+"Cloud Resilience","https://www.cloudsecurityalliance.org/research/resilience/",Article,169
+"Cloud Scalability","https://www.cloudflare.com/learning/cloud/what-is-cloud-scalability/",Article,169
+"Fuzzy Logic Intro","https://www.mathworks.com/help/fuzzy/",Article,170
+"Fuzzy Tutorial","https://www.tutorialspoint.com/fuzzy_logic/index.htm",Tutorial,170
+"Fuzzy Video","https://www.youtube.com/watch?v=9T0C3jnxImA",Video,170
+"Fuzzy Logic Applications","https://www.mathworks.com/help/fuzzy/fuzzy-inference-system.html",Tutorial,170
+"Fuzzy Control Tutorial","https://www.mathworks.com/help/fuzzy/examples.html",Tutorial,170
+"Peer-to-Peer Networks","https://www.tutorialspoint.com/peer_to_peer/index.htm",Article,171
+"P2P Tutorial","https://www.geeksforgeeks.org/peer-to-peer-p2p-networking/",Tutorial,171
+"P2P Video","https://www.youtube.com/watch?v=6F5g3nW8p_Q",Video,171
+"P2P Security","https://www.torproject.org/",Article,171
+"P2P File Sharing","https://www.bittorrent.org/",Article,171
+"Software Verification Guide","https://www.tutorialspoint.com/software_engineering/software_verification_validation.htm",Article,172
+"Formal Methods Tutorial","https://www.geeksforgeeks.org/software-engineering-formal-methods/",Tutorial,172
+"Verification Video","https://www.youtube.com/watch?v=5X7l2N1v1eA",Video,172
+"Verification Standards","https://www.iso.org/standard/61488.html",Article,172
+"Verification Tools","https://www.spinroot.com/spin/whatispin.html",Article,172
+"Internet Governance Basics","https://www.internetsociety.org/issues/internet-governance/",Article,173
+"Governance Tutorial","https://www.tutorialspoint.com/internet_governance/index.htm",Tutorial,173
+"Governance Video","https://www.youtube.com/watch?v=0fKUqmpV-j0",Video,173
+"ICANN Governance","https://www.icann.org/",Article,173
+"Internet Policy","https://www.icann.org/resources/pages/governance-2012-02-25-en",Article,173
+"Quantum Networking Intro","https://www.nature.com/subjects/quantum-networks",Article,174
+"Quantum Net Tutorial","https://qiskit.org/documentation/tutorials.html",Tutorial,174
+"Quantum Net Video","https://www.youtube.com/watch?v=AQjW7_a5YVM",Video,174
+"Quantum Network Tools","https://www.quantum-inspire.com/knowledgebase/networking/",Tutorial,174
+"Quantum Network Research","https://www.nature.com/articles/s41586-021-03550-2",Article,174
+"Computational Geometry","https://www.cgal.org/",Article,175
+"Geometry Tutorial","https://www.tutorialspoint.com/computational_geometry/index.htm",Tutorial,175
+"Geometry Video","https://www.youtube.com/watch?v=JsTptu56GM8",Video,175
+"Geometry Software","https://www.geogebra.org/3d",Tutorial,175
+"Geometry Algorithms","https://www.cgal.org/Manual/latest/doc_html/cgal_manual/packages.html",Tutorial,175
+"Secure Coding Guide","https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/",Article,176
+"OWASP Tutorial","https://www.tutorialspoint.com/owasp/index.htm",Tutorial,176
+"Secure Coding Video","https://www.youtube.com/watch?v=qbql1oX4EQI",Video,176
+"Secure Coding Tools","https://www.checkmarx.com/",Article,176
+"OWASP Secure Coding","https://owasp.org/www-project-secure-coding-practices/",Article,176
+"Multi-Agent Systems","https://www.agent.ai/",Article,177
+"Agent Tutorial","https://www.tutorialspoint.com/multi_agent_systems/index.htm",Tutorial,177
+"Agent Video","https://www.youtube.com/watch?v=7sOa5vX_6yI",Video,177
+"Agent Frameworks","https://www.jason-lang.org/",Article,177
+"Agent Simulation","https://www.anylogic.com/use-of-simulation/multi-agent-modeling/",Tutorial,177
+"Data Ethics Guide","https://www.datacamp.com/community/blog/data-ethics",Article,178
+"Ethics Tutorial","https://www.tutorialspoint.com/data_ethics/index.htm",Tutorial,178
+"Ethics Video","https://www.youtube.com/watch?v=5L6X8iLh8x8",Video,178
+"Ethics Frameworks","https://www.datacamp.com/community/blog/data-ethics-framework",Article,178
+"Data Ethics Framework","https://www.datacamp.com/community/blog/data-ethics-framework",Article,178
+"Hardware Security Basics","https://www.trustedcomputinggroup.org/",Article,179
+"TPM Tutorial","https://www.tutorialspoint.com/hardware_security/index.htm",Tutorial,179
+"Hardware Video","https://www.youtube.com/watch?v=9Q4S8aV8qP8",Video,179
+"Hardware Security Modules","https://www.thalesgroup.com/en/markets/digital-identity-and-security/hardware-security-modules-hsm",Article,179
+"Hardware TPM Guide","https://trustedcomputinggroup.org/wp-content/uploads/TPM-Main-Part-1-Design-Principles_v1.2_rev116_01032011.pdf",Article,179
+"Quantum Error Correction","https://www.nature.com/subjects/quantum-error-correction",Article,180
+"Error Correction Tutorial","https://qiskit.org/textbook/ch-quantum-hardware/error-correction.html",Tutorial,180
+"QEC Video","https://www.youtube.com/watch?v=JUq1Y4B0r5A",Video,180
+"Quantum Error Tutorial","https://qiskit.org/textbook/ch-quantum-hardware/error-correction.html",Tutorial,180
+"Quantum Error Codes","https://qiskit.org/textbook/ch-quantum-hardware/error-correction-surface-codes.html",Tutorial,180
+"Augmented Analytics Intro","https://www.gartner.com/en/information-technology/glossary/augmented-analytics",Article,181
+"Analytics Tutorial","https://www.tutorialspoint.com/augmented_analytics/index.htm",Tutorial,181
+"AA Video","https://www.youtube.com/watch?v=aircAruvnKk",Video,181
+"Augmented Analytics Tools","https://www.tableau.com/solutions/augmented-analytics",Article,181
+"Augmented Analytics","https://www.gartner.com/en/information-technology/glossary/augmented-analytics",Article,181
+"Serverless Computing Guide","https://aws.amazon.com/serverless/",Article,182
+"Lambda Tutorial","https://www.tutorialspoint.com/serverless_computing/index.htm",Tutorial,182
+"Serverless Video","https://www.youtube.com/watch?v=5a0g_LEF1lE",Video,182
+"Serverless Patterns","https://serverless.com/framework/docs/providers/aws/",Article,182
+"Serverless Architecture","https://www.serverless.com/framework/docs/",Article,182
+"Explainable AI Basics","https://www.xai.org/",Article,183
+"XAI Tutorial","https://www.tutorialspoint.com/explainable_ai/index.htm",Tutorial,183
+"XAI Video","https://www.youtube.com/watch?v=PkZNo7MFNFg",Video,183
+"XAI Frameworks","https://www.lime.ml/",Article,183
+"XAI Techniques","https://www.lime.ml/",Article,183
+"Blockchain Security Guide","https://www.investopedia.com/terms/b/blockchain-security.asp",Article,184
+"Consensus Tutorial","https://www.tutorialspoint.com/blockchain_security/index.htm",Tutorial,184
+"BC Security Video","https://www.youtube.com/watch?v=9T0C3jnxImA",Video,184
+"Blockchain Audits","https://www.certik.com/resources/blockchain-security",Article,184
+"Blockchain Consensus","https://www.hyperledger.org/learn/consensus",Article,184
+"Quantum Simulation Intro","https://www.ibm.com/quantum-computing/learn/what-is-quantum-simulation/",Article,185
+"Qiskit Tutorial","https://qiskit.org/documentation/tutorials.html",Tutorial,185
+"Quantum Sim Video","https://www.youtube.com/watch?v=AQjW7_a5YVM",Video,185
+"Quantum Simulators","https://www.quantum-inspire.com/",Article,185
+"Quantum Sim Tools","https://www.quantum-inspire.com/",Article,185
+"Digital Forensics Tools","https://www.sans.org/cyber-security-courses/digital-forensics-tools/",Article,186
+"Forensics Tool Tutorial","https://www.tutorialspoint.com/digital_forensics_tools/index.htm",Tutorial,186
+"DF Video","https://www.youtube.com/watch?v=7sOa5vX_6yI",Video,186
+"Forensics Software","https://www.autopsy.com/",Article,186
+"Forensics Training","https://www.sans.org/cyber-security-courses/digital-forensics-training/",Tutorial,186
+"Network Optimization Guide","https://www.tutorialspoint.com/network_optimization/index.htm",Article,187
+"Routing Tutorial","https://www.geeksforgeeks.org/computer-network-routing/",Tutorial,187
+"Optimization Video","https://www.youtube.com/watch?v=6F5g3nW8p_Q",Video,187
+"QoS Standards","https://www.itu.int/rec/T-REC-G.114",Article,187
+"QoS Optimization","https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/qos/configuration/15-mt/qos-15-mt-book/nbar-config.html",Tutorial,187
+"Adaptive Systems Intro","https://www.tutorialspoint.com/adaptive_systems/index.htm",Article,188
+"Adaptive Tutorial","https://www.geeksforgeeks.org/adaptive-systems/",Tutorial,188
+"Adaptive Video","https://www.youtube.com/watch?v=0fKUqmpV-j0",Video,188
+"Adaptive Algorithms","https://www.kdnuggets.com/2020/04/adaptive-learning-algorithms.html",Article,188
+"Adaptive Learning","https://www.knewton.com/adaptive-learning/",Article,188
+"Cognitive Computing Guide","https://www.ibm.com/watson",Article,189
+"Cognitive Tutorial","https://www.tutorialspoint.com/cognitive_computing/index.htm",Tutorial,189
+"Cog Video","https://www.youtube.com/watch?v=5L6X8iLh8x8",Video,189
+"Cognitive Models","https://www.ibm.com/cloud/learn/cognitive-computing",Article,189
+"Cognitive API Tutorial","https://www.ibm.com/cloud/watson",Tutorial,189
+"Post-Quantum Cryptography","https://www.nist.gov/programs-projects/post-quantum-cryptography",Article,190
+"Lattice Tutorial","https://www.tutorialspoint.com/post_quantum_cryptography/index.htm",Tutorial,190
+"PQC Video","https://www.youtube.com/watch?v=9T0C3jnxImA",Video,190
+"Post-Quantum Standards","https://csrc.nist.gov/projects/post-quantum-cryptography/round-4-submissions",Article,190
+"Post-Quantum Algorithms","https://csrc.nist.gov/projects/post-quantum-cryptography",Article,190
+"Edge AI Basics","https://www.edge-ai-vision.com/",Article,191
+"Edge AI Tutorial","https://www.tutorialspoint.com/edge_ai/index.htm",Tutorial,191
+"Edge AI Video","https://www.youtube.com/watch?v=9Q4S8aV8qP8",Video,191
+"Edge AI Hardware","https://www.nvidia.com/en-us/data-center/jetson/",Article,191
+"Edge AI Frameworks","https://www.tensorflow.org/lite",Article,191
+"Quantum Internet Intro","https://www.nature.com/subjects/quantum-internet",Article,192
+"Quantum Net Tutorial","https://qiskit.org/textbook/ch-networks/quantum-internet.html",Tutorial,192
+"QI Video","https://www.youtube.com/watch?v=AQjW7_a5YVM",Video,192
+"Quantum Internet Protocols","https://www.nature.com/articles/s41586-021-03550-2",Article,192
+"Quantum Internet Research","https://www.nature.com/articles/s41586-021-03550-2",Article,192
+"Software Evolution Guide","https://www.tutorialspoint.com/software_engineering/software_evolution.htm",Article,193
+"Refactoring Tutorial","https://www.geeksforgeeks.org/software-engineering-software-re-engineering/",Tutorial,193
+"Evolution Video","https://www.youtube.com/watch?v=2t1FZ4i5_KA",Video,193
+"Software Maintenance","https://www.sei.cmu.edu/our-work/software-maintenance/",Article,193
+"Software Refactoring","https://refactoring.com/catalog/",Article,193
+"Trusted Computing Basics","https://www.trustedcomputinggroup.org/",Article,194
+"TPM Tutorial","https://www.tutorialspoint.com/trusted_computing/index.htm",Tutorial,194
+"TC Video","https://www.youtube.com/watch?v=9Q4S8aV8qP8",Video,194
+"Trusted Computing Specs","https://trustedcomputinggroup.org/wp-content/uploads/TPM-Rev-2.0-Part-1-Architecture-01.16.pdf",Article,194
+"Trusted Platform Module","https://www.trustedcomputinggroup.org/wp-content/uploads/TPM-Rev-2.0-Part-1-Architecture-01.16.pdf",Article,194
+"Humanoid Robotics Intro","https://www.tutorialspoint.com/humanoid_robotics/index.htm",Article,195
+"Robot Design Tutorial","https://www.geeksforgeeks.org/robotics/",Tutorial,195
+"Humanoid Video","https://www.youtube.com/watch?v=6qK__G5l6c8",Video,195
+"Humanoid AI","https://www.bostondynamics.com/",Article,195
+"Humanoid Robotics Kit","https://www.trossenrobotics.com/",Article,195
+"Data Governance Guide","https://www.datagovernance.com/",Article,196
+"Policy Tutorial","https://www.tutorialspoint.com/data_governance/index.htm",Tutorial,196
+"Governance Video","https://www.youtube.com/watch?v=5L6X8iLh8x8",Video,196
+"Data Governance Standards","https://www.dama.org/cpages/body-of-knowledge",Article,196
+"Data Governance Tools","https://www.informatica.com/products/data-governance.html",Article,196
+"Quantum AI Ethics","https://www.nature.com/articles/s42256-020-0150-0",Article,197
+"Ethics Tutorial","https://www.tutorialspoint.com/quantum_ai_ethics/index.htm",Tutorial,197
+"QAI Video","https://www.youtube.com/watch?v=PkZNo7MFNFg",Video,197
+"Quantum AI Guidelines","https://www.europarl.europa.eu/RegData/etudes/STUD/2020/634426/EPRS_STU(2020)634426_EN.pdf",Article,197
+"Quantum AI Policy","https://www.europarl.europa.eu/RegData/etudes/STUD/2020/634426/EPRS_STU(2020)634426_EN.pdf",Article,197
+"Hyperledger Basics","https://www.hyperledger.org/",Article,198
+"Hyperledger Tutorial","https://www.tutorialspoint.com/hyperledger/index.htm",Tutorial,198
+"HL Video","https://www.youtube.com/watch?v=5a0g_LEF1lE",Video,198
+"Hyperledger Tools","https://www.hyperledger.org/tools",Article,198
+"Hyperledger Fabric","https://www.hyperledger.org/use/fabric",Article,198
+"Computational Biology Intro","https://www.ncbi.nlm.nih.gov/genome/",Article,199
+"Bio Algorithms Tutorial","https://www.tutorialspoint.com/computational_biology/index.htm",Tutorial,199
+"Comp Bio Video","https://www.youtube.com/watch?v=0fKUqmpV-j0",Video,199
+"Computational Bio Research","https://www.ncbi.nlm.nih.gov/genome/guide/",Article,199
+"Computational Bio Tools","https://www.bioconductor.org/",Article,199
+"Python Tutorial","https://www.w3schools.com/python/",Tutorial,200
+"Python Data Science","https://www.datacamp.com/community/tutorials/data-science-python",Article,200
+"Python Course","https://www.coursera.org/learn/python",Course,200
+"Python Projects","https://www.youtube.com/watch?v=rfscVS0vtbw",Video,200
+"HTML Cheatsheet","https://htmlcheatsheet.com/",Article,201
+"HTML Tutorial","https://www.tutorialspoint.com/html/index.htm",Tutorial,201
+"HTML Course","https://www.khanacademy.org/computing/computer-programming/html-css",Course,201
+"HTML Video","https://www.youtube.com/watch?v=UB1O30fR-EE",Video,201
+"CSS Basics","https://www.cssbasics.com/",Article,202
+"CSS Tutorial","https://www.w3schools.com/css/",Tutorial,202
+"CSS Course","https://www.udemy.com/course/css-the-complete-guide/",Course,202
+"CSS Video","https://www.youtube.com/watch?v=1Rs2ND1ryYc",Video,202
+"JavaScript Guide","https://developer.mozilla.org/en-US/docs/Web/JavaScript",Article,203
+"JS Tutorial","https://www.javascripttutorial.net/",Tutorial,203
+"JS Course","https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/",Course,203
+"JS Video","https://www.youtube.com/watch?v=W6NZfCO5SIk",Video,203
+"SQL Basics","https://www.postgresqltutorial.com/",Article,204
+"SQL Tutorial","https://www.w3schools.com/sql/",Tutorial,204
+"SQL Course","https://www.coursera.org/learn/sql-for-data-science",Course,204
+"SQL Video","https://www.youtube.com/watch?v=7S_tz1z_5bA",Video,204
+"Java Tutorial","https://www.javatpoint.com/java-tutorial",Tutorial,205
+"Java Book","https://www.oreilly.com/library/view/java-the-complete/9780134277584/",Book,205
+"Java Course","https://www.edx.org/course/java-programming-and-software-engineering-fundamentals",Course,205
+"Java Video","https://www.youtube.com/watch?v=eIrMbAQSU34",Video,205
+"R Tutorial","https://www.r-tutor.com/",Tutorial,206
+"R Data Analysis","https://www.datacamp.com/community/tutorials/r-tutorial-data-visualization",Article,206
+"R Course","https://www.coursera.org/learn/r-programming",Course,206
+"R Video","https://www.youtube.com/watch?v=_V8eKsto3Ug",Video,206
+"C Tutorial","https://www.tutorialspoint.com/cprogramming/index.htm",Tutorial,207
+"C Book","https://www.pearson.com/en-us/subject-catalog/p/c-programming-language/P200000003030/9780131103627",Book,207
+"C Course","https://www.edx.org/course/introduction-to-c-programming",Course,207
+"C Video","https://www.youtube.com/watch?v=KJgsSFOSQv0",Video,207
+"C++ Tutorial","https://www.w3schools.com/cpp/",Tutorial,208
+"C++ Book","https://www.pearson.com/en-us/subject-catalog/p/c-plus-plus-primer/P200000003030/9780134375570",Book,208
+"C++ Course","https://www.coursera.org/learn/c-plus-plus-a",Course,208
+"C++ Video","https://www.youtube.com/watch?v=vLnPwxZdW4Y",Video,208
+"PHP Tutorial","https://www.php.net/manual/en/tutorial.php",Tutorial,209
+"PHP Guide","https://www.tutorialspoint.com/php/index.htm",Article,209
+"PHP Course","https://www.udemy.com/course/php-for-beginners/",Course,209
+"PHP Video","https://www.youtube.com/watch?v=OK_JCtrrv-c",Video,209
+"Ruby Tutorial","https://www.ruby-lang.org/en/documentation/",Tutorial,210
+"Ruby on Rails","https://guides.rubyonrails.org/",Article,210
+"Ruby Course","https://www.coursera.org/learn/ruby-on-rails",Course,210
+"Ruby Video","https://www.youtube.com/watch?v=G3e_C-7L1YE",Video,210
+"Swift Tutorial","https://www.swift.org/documentation/",Tutorial,211
+"Swift Guide","https://developer.apple.com/swift/",Article,211
+"Swift Course","https://www.raywenderlich.com/swift-courses",Course,211
+"Swift Video","https://www.youtube.com/watch?v=8a8j0e4e9bM",Video,211
+"Kotlin Tutorial","https://kotlinlang.org/docs/tutorials/",Tutorial,212
+"Kotlin Guide","https://developer.android.com/kotlin",Article,212
+"Kotlin Course","https://www.udemy.com/course/kotlin-bootcamp/",Course,212
+"Kotlin Video","https://www.youtube.com/watch?v=0vL4Zv2xN8c",Video,212
+"Go Tutorial","https://golang.org/doc/",Tutorial,213
+"Go Concurrency","https://www.golang-book.com/books/2/chapters/09_concurrency",Article,213
+"Go Course","https://www.coursera.org/learn/golang",Course,213
+"Go Video","https://www.youtube.com/watch?v=YS4e4q9oBaU",Video,213
+"Rust Tutorial","https://www.rust-lang.org/learn",Tutorial,214
+"Rust Book","https://doc.rust-lang.org/book/",Book,214
+"Rust Course","https://www.edx.org/course/introduction-to-rust",Course,214
+"Rust Video","https://www.youtube.com/watch?v=YX4aE9Z9L6w",Video,214
+"TypeScript Tutorial","https://www.typescriptlang.org/docs/",Tutorial,215
+"TypeScript Guide","https://www.tutorialspoint.com/typescript/index.htm",Article,215
+"TypeScript Course","https://www.udemy.com/course/understanding-typescript/",Course,215
+"TypeScript Video","https://www.youtube.com/watch?v=BwuLxPH8IDs",Video,215
+"Scala Tutorial","https://www.scala-lang.org/documentation/",Tutorial,216
+"Scala Guide","https://docs.scala-lang.org/tour/tour-of-scala.html",Article,216
+"Scala Course","https://www.coursera.org/learn/progfun1",Course,216
+"Scala Video","https://www.youtube.com/watch?v=0xLJBxD7Dj0",Video,216
+"Perl Tutorial","https://perldoc.perl.org/",Tutorial,217
+"Perl Guide","https://www.tutorialspoint.com/perl/index.htm",Article,217
+"Perl Course","https://www.udemy.com/course/perl-programming/",Course,217
+"Perl Video","https://www.youtube.com/watch?v=7o3u1wl2IG4",Video,217
+"Shell Scripting Guide","https://www.gnu.org/software/bash/manual/",Article,218
+"Shell Tutorial","https://www.tutorialspoint.com/unix/index.htm",Tutorial,218
+"Shell Course","https://www.udemy.com/course/linux-shell-scripting/",Course,218
+"Shell Video","https://www.youtube.com/watch?v=oxuRxHQ2tRI",Video,218
+"MATLAB Tutorial","https://www.mathworks.com/help/matlab/",Tutorial,219
+"MATLAB Guide","https://www.tutorialspoint.com/matlab/index.htm",Article,219
+"MATLAB Course","https://www.coursera.org/learn/matlab",Course,219
+"MATLAB Video","https://www.youtube.com/watch?v=QXa9vW8c1AI",Video,219
+"Julia Tutorial","https://julialang.org/learning/",Tutorial,220
+"Julia Guide","https://docs.julialang.org/en/v1/",Article,220
+"Julia Course","https://www.coursera.org/learn/julia",Course,220
+"Julia Video","https://www.youtube.com/watch?v=FDlK5XJ5eXI",Video,220
+"COBOL Tutorial","https://www.tutorialspoint.com/cobol/index.htm",Tutorial,221
+"COBOL Guide","https://www.microfocus.com/en-us/products/cobol/",Article,221
+"COBOL Course","https://www.udemy.com/course/cobol-programming/",Course,221
+"COBOL Video","https://www.youtube.com/watch?v=5q4sF-q0qMc",Video,221
+"Fortran Tutorial","https://www.tutorialspoint.com/fortran/index.htm",Tutorial,222
+"Fortran Guide","https://www.fortran.com/",Article,222
+"Fortran Course","https://www.coursera.org/learn/fortran",Course,222
+"Fortran Video","https://www.youtube.com/watch?v=1j4mCIpVu_g",Video,222
+"Assembly Tutorial","https://www.tutorialspoint.com/assembly_programming/index.htm",Tutorial,223
+"Assembly Guide","https://www.cs.virginia.edu/~evans/cs216/guides/x86.html",Article,223
+"Assembly Course","https://www.udemy.com/course/assembly-language/",Course,223
+"Assembly Video","https://www.youtube.com/watch?v=6F5g3nW8p_Q",Video,223
+"Elixir Tutorial","https://elixir-lang.org/getting-started/introduction.html",Tutorial,224
+"Elixir Guide","https://www.tutorialspoint.com/elixir/index.htm",Article,224
+"Elixir Course","https://www.coursera.org/learn/elixir",Course,224
+"Elixir Video","https://www.youtube.com/watch?v=0xLJBxD7Dj0",Video,224
+"Haskell Tutorial","https://www.haskell.org/tutorial/",Tutorial,225
+"Haskell Guide","https://www.tutorialspoint.com/haskell/index.htm",Article,225
+"Haskell Course","https://www.edx.org/course/introduction-to-haskell",Course,225
+"Haskell Video","https://www.youtube.com/watch?v=0fK8k7vXJ1o",Video,225
+"Lua Tutorial","https://www.lua.org/pil/contents.html",Tutorial,226
+"Lua Guide","https://www.tutorialspoint.com/lua/index.htm",Article,226
+"Lua Course","https://www.udemy.com/course/lua-scripting/",Course,226
+"Lua Video","https://www.youtube.com/watch?v=0vL4Zv2xN8c",Video,226
+"Groovy Tutorial","https://groovy-lang.org/documentation.html",Tutorial,227
+"Groovy Guide","https://www.tutorialspoint.com/groovy/index.htm",Article,227
+"Groovy Course","https://www.coursera.org/learn/groovy",Course,227
+"Groovy Video","https://www.youtube.com/watch?v=5q4sF-q0qMc",Video,227
+"PowerShell Tutorial","https://docs.microsoft.com/en-us/powershell/scripting/overview",Tutorial,228
+"PowerShell Guide","https://www.tutorialspoint.com/powershell/index.htm",Article,228
+"PowerShell Course","https://www.udemy.com/course/powershell/",Course,228
+"PowerShell Video","https://www.youtube.com/watch?v=oxuRxHQ2tRI",Video,228
+"Dart Tutorial","https://dart.dev/tutorials",Tutorial,229
+"Dart Guide","https://www.tutorialspoint.com/dart/index.htm",Article,229
+"Dart Course","https://www.udemy.com/course/dart-and-flutter/",Course,229
+"Dart Video","https://www.youtube.com/watch?v=8a8j0e4e9bM",Video,229
+"Objective-C Tutorial","https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html",Tutorial,230
+"Objective-C Guide","https://www.tutorialspoint.com/objective_c/index.htm",Article,230
+"Objective-C Course","https://www.udemy.com/course/objective-c/",Course,230
+"Objective-C Video","https://www.youtube.com/watch?v=8e5zL8x1tYc",Video,230
+"VB.NET Tutorial","https://www.tutorialspoint.com/vb.net/index.htm",Tutorial,231
+"VB.NET Guide","https://docs.microsoft.com/en-us/dotnet/visual-basic/",Article,231
+"VB.NET Course","https://www.udemy.com/course/visual-basic-net/",Course,231
+"VB.NET Video","https://www.youtube.com/watch?v=5L6X8iLh8x8",Video,231
+"SAS Tutorial","https://www.tutorialspoint.com/sas/index.htm",Tutorial,232
+"SAS Guide","https://www.sas.com/en_us/home.html",Article,232
+"SAS Course","https://www.coursera.org/learn/sas-programming",Course,232
+"SAS Video","https://www.youtube.com/watch?v=7o3u1wl2IG4",Video,232
+"Prolog Tutorial","https://www.swi-prolog.org/pldoc/man?section=intro",Tutorial,233
+"Prolog Guide","https://www.tutorialspoint.com/prolog/index.htm",Article,233
+"Prolog Course","https://www.udemy.com/course/prolog-programming/",Course,233
+"Prolog Video","https://www.youtube.com/watch?v=5q4sF-q0qMc",Video,233
+"Scheme Tutorial","https://www.scheme.com/tspl4/",Tutorial,234
+"Scheme Guide","https://www.tutorialspoint.com/scheme/index.htm",Article,234
+"Scheme Course","https://www.edx.org/course/introduction-to-computational-thinking-and-scheme",Course,234
+"Scheme Video","https://www.youtube.com/watch?v=0fKUqmpV-j0",Video,234
+"Smalltalk Tutorial","https://www.smalltalk.org/",Tutorial,235
+"Smalltalk Guide","https://www.tutorialspoint.com/smalltalk/index.htm",Article,235
+"Smalltalk Course","https://www.udemy.com/course/smalltalk-programming/",Course,235
+"Smalltalk Video","https://www.youtube.com/watch?v=5L6X8iLh8x8",Video,235
+"Ada Tutorial","https://learn.adacore.com/",Tutorial,236
+"Ada Guide","https://www.tutorialspoint.com/ada/index.htm",Article,236
+"Ada Course","https://www.coursera.org/learn/ada",Course,236
+"Ada Video","https://www.youtube.com/watch?v=9Q4S8aV8qP8",Video,236
+"CLIPS Tutorial","https://www.clipsrules.net/index.php?title=CLIPS_Basic_Programming_Guide",Tutorial,237
+"CLIPS Guide","https://www.tutorialspoint.com/clips/index.htm",Article,237
+"CLIPS Course","https://www.udemy.com/course/clips-expert-system/",Course,237
+"CLIPS Video","https://www.youtube.com/watch?v=5q4sF-q0qMc",Video,237
+"Erlang Tutorial","https://www.erlang.org/doc/getting_started/users_guide.html",Tutorial,238
+"Erlang Guide","https://www.tutorialspoint.com/erlang/index.htm",Article,238
+"Erlang Course","https://www.coursera.org/learn/erlang",Course,238
+"Erlang Video","https://www.youtube.com/watch?v=0xLJBxD7Dj0",Video,238
+"F# Tutorial","https://fsharp.org/learn.html",Tutorial,239
+"F# Guide","https://www.tutorialspoint.com/fsharp/index.htm",Article,239
+"F# Course","https://www.udemy.com/course/fsharp/",Course,239
+"F# Video","https://www.youtube.com/watch?v=5L6X8iLh8x8",Video,239
+"D Tutorial","https://dlang.org/",Tutorial,240
+"D Guide","https://www.tutorialspoint.com/d/index.htm",Article,240
+"D Course","https://www.udemy.com/course/d-programming/",Course,240
+"D Video","https://www.youtube.com/watch?v=9Q4S8aV8qP8",Video,240
+"Crystal Tutorial","https://crystal-lang.org/docs/",Tutorial,241
+"Crystal Guide","https://www.tutorialspoint.com/crystal/index.htm",Article,241
+"Crystal Course","https://www.udemy.com/course/crystal-programming/",Course,241
+"Crystal Video","https://www.youtube.com/watch?v=5q4sF-q0qMc",Video,241
+"Nim Tutorial","https://nim-lang.org/documentation.html",Tutorial,242
+"Nim Guide","https://www.tutorialspoint.com/nim/index.htm",Article,242
+"Nim Course","https://www.udemy.com/course/nim-programming/",Course,242
+"Nim Video","https://www.youtube.com/watch?v=9Q4S8aV8qP8",Video,242
+"OCaml Tutorial","https://ocaml.org/learn/tutorials.html",Tutorial,243
+"OCaml Guide","https://www.tutorialspoint.com/ocaml/index.htm",Article,243
+"OCaml Course","https://www.coursera.org/learn/ocaml",Course,243
+"OCaml Video","https://www.youtube.com/watch?v=0fK8k7vXJ1o",Video,243
+"Pascal Tutorial","https://www.tutorialspoint.com/pascal/index.htm",Tutorial,244
+"Pascal Guide","https://www.freepascal.org/docs.var",Article,244
+"Pascal Course","https://www.udemy.com/course/pascal-programming/",Course,244
+"Pascal Video","https://www.youtube.com/watch?v=5L6X8iLh8x8",Video,244
+"Delphi Tutorial","https://docwiki.embarcadero.com/RADStudio/en/Delphi",Tutorial,245
+"Delphi Guide","https://www.tutorialspoint.com/delphi/index.htm",Article,245
+"Delphi Course","https://www.udemy.com/course/delphi-programming/",Course,245
+"Delphi Video","https://www.youtube.com/watch?v=9Q4S8aV8qP8",Video,245
+"APL Tutorial","https://www.dyalog.com/student-apl-contest.htm",Tutorial,246
+"APL Guide","https://www.tutorialspoint.com/apl/index.htm",Article,246
+"APL Course","https://www.udemy.com/course/apl-programming/",Course,246
+"APL Video","https://www.youtube.com/watch?v=5q4sF-q0qMc",Video,246
+"Logo Tutorial","https://www.calormen.com/jslogo/",Tutorial,247
+"Logo Guide","https://www.tutorialspoint.com/logo/index.htm",Article,247
+"Logo Course","https://www.udemy.com/course/logo-programming/",Course,247
+"Logo Video","https://www.youtube.com/watch?v=0fKUqmpV-j0",Video,247
+"Forth Tutorial","https://www.forth.com/resources/forth-primer/",Tutorial,248
+"Forth Guide","https://www.tutorialspoint.com/forth/index.htm",Article,248
+"Forth Course","https://www.udemy.com/course/forth-programming/",Course,248
+"Forth Video","https://www.youtube.com/watch?v=9Q4S8aV8qP8",Video,248
+"VBA Tutorial","https://www.tutorialspoint.com/vba/index.htm",Tutorial,249
+"VBA Guide","https://docs.microsoft.com/en-us/office/vba/library-reference",Article,249
+"VBA Course","https://www.udemy.com/course/vba-excel/",Course,249
+"VBA Video","https://www.youtube.com/watch?v=5L6X8iLh8x8",Video,249

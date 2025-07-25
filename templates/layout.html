@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Victoria{% endblock %}</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        /* Base Light Theme Variables (Default) */
+        :root[data-theme="light"] {
+            --bs-body-bg: #f8f9fa; /* Light grey background */
+            --bs-body-color: #212529; /* Dark text (nearly black) */
+            --bs-navbar-bg: #343a40; /* Dark navbar background */
+            --bs-navbar-brand-color: #ffffff; /* White for brand in light mode */
+            --bs-navbar-link-color: rgba(255, 255, 255, 0.75); /* Light text for navbar links */
+            --bs-navbar-link-hover-color: rgba(255, 255, 255, 1);
+            --bs-card-bg: #ffffff; /* White card background */
+            --bs-card-shadow: 0 4px 8px rgba(0,0,0,0.05);
+            --bs-chat-ai-bg: #f1f0f0; /* Light grey chat bubble for AI */
+            --bs-chat-user-bg: #0d6efd; /* Blue chat bubble for user */
+            --bs-heading-color: #212529; /* Headings default to dark */
+            --bs-link-color: #0d6efd; /* Bootstrap blue for links */
+            --bs-link-hover-color: #0a58ca;
+            --bs-modal-bg: #ffffff;
+            --bs-modal-color: #212529;
+            --bs-placeholder-color: #6c757d; /* Default placeholder color */
+            --bs-input-bg: #ffffff; /* Default input background */
+            --bs-input-color: #212529; /* Default input text color */
+            --bs-input-border-color: #ced4da; /* Default input border color */
+            --bs-star-color: #ffc107; /* Gold for active stars */
+        }
+
+        /* Dark Theme Variables */
+        :root[data-theme="dark"] {
+            --bs-body-bg: #212529; /* Dark background */
+            --bs-body-color: #f8f9fa; /* Light text (nearly white) */
+            --bs-navbar-bg: #343a40; /* Dark navbar, keeping it consistent */
+            --bs-navbar-brand-color: #f8f9fa; /* Lighter white for brand in dark mode */
+            --bs-navbar-link-color: rgba(255, 255, 255, 0.85); /* Slightly brighter light text for navbar links */
+            --bs-navbar-link-hover-color: rgba(255, 255, 255, 1);
+            --bs-card-bg: #343a40; /* Dark card background */
+            --bs-card-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            --bs-chat-ai-bg: #495057; /* Darker grey chat bubble for AI */
+            --bs-chat-user-bg: #1a73e8; /* Slightly brighter blue chat bubble for user */
+            --bs-heading-color: #f8f9fa; /* Headings turn light */
+            --bs-link-color: #6daafc; /* Lighter blue for links in dark mode */
+            --bs-link-hover-color: #8bbdff;
+            --bs-modal-bg: #495057; /* Dark modal background */
+            --bs-modal-color: #f8f9fa; /* Light modal text */
+            --bs-placeholder-color: #adb5bd; /* Light placeholder color for dark mode */
+            --bs-input-bg: #343a40; /* Dark background for inputs */
+            --bs-input-color: #f8f9fa; /* Light text color for inputs */
+            --bs-input-border-color: #495057; /* Slightly lighter border */
+            --bs-star-color: #ffc107; /* Still gold for active stars */
+        }
+
+        /* Apply CSS variables to general elements */
+        body {
+            background-color: var(--bs-body-bg);
+            color: var(--bs-body-color);
+            transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+        }
+
+        /* Navbar specific styling */
+        .navbar {
+            background-color: var(--bs-navbar-bg) !important; /* Override Bootstrap's bg-dark */
+        }
+
+
+        .navbar-brand {
+            font-family: 'Great Vibes', cursive;
+            font-size: 2.2rem; /* Adjust this value to get the perfect size */
+            padding-top: 0;
+            padding-bottom: 0;
+            color: var(--bs-navbar-brand-color) !important;
+        }
+
+        .navbar-nav .nav-link {
+            color: var(--bs-navbar-link-color) !important; /* Ensure nav links adapt */
+        }
+        .navbar-nav .nav-link:hover,
+        .navbar-nav .nav-link:focus {
+            color: var(--bs-navbar-link-hover-color) !important;
+        }
+
+        /* Theme Toggle Button specific styling */
+        .theme-toggle-button {
+            background: none;
+            border: none;
+            color: var(--bs-navbar-link-color) !important; /* Explicitly set color for the button icon */
+            cursor: pointer;
+            font-size: 1.2rem;
+            margin-left: 10px;
+            padding: 0;
+            line-height: 1;
+            transition: color 0.3s ease;
+        }
+        .theme-toggle-button:hover {
+            color: var(--bs-navbar-link-hover-color) !important;
+        }
+        .theme-toggle-button i {
+            color: inherit; /* Inherit color from the button */
+        }
+
+        /* Content container and other elements */
+        .container-custom {
+            background-color: var(--bs-card-bg);
+            box-shadow: var(--bs-card-shadow);
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+        .description-text {
+            white-space: pre-wrap;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            color: var(--bs-heading-color);
+            transition: color 0.3s ease;
+        }
+        p, span, div, li, ul, ol, td, th { /* Target more general text elements */
+            color: var(--bs-body-color);
+            transition: color 0.3s ease;
+        }
+        a {
+            color: var(--bs-link-color);
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: var(--bs-link-hover-color);
+        }
+
+        /* Chat Bubble Styles */
+        .chat-bubble {
+            padding: 10px 15px;
+            border-radius: 20px;
+            margin-bottom: 10px;
+            max-width: 80%;
+            word-wrap: break-word;
+        }
+        .chat-bubble.ai {
+            background-color: var(--bs-chat-ai-bg);
+            color: var(--bs-body-color); /* AI chat bubble text adapts */
+            text-align: left;
+            align-self: flex-start;
+        }
+        .chat-bubble.user {
+            background-color: var(--bs-chat-user-bg);
+            color: white; /* Keep user chat text white for contrast on blue */
+            text-align: left;
+            align-self: flex-end;
+            margin-left: auto;
+        }
+
+        /* Modal adaptations */
+        .modal-content {
+            background-color: var(--bs-modal-bg);
+            color: var(--bs-modal-color);
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        .modal-header, .modal-footer {
+            border-color: rgba(var(--bs-body-color-rgb, 33, 37, 41), 0.1);
+            transition: border-color 0.3s ease;
+        }
+        .modal-title {
+            color: var(--bs-heading-color);
+        }
+        .btn-close {
+            filter: var(--bs-btn-close-filter, none);
+        }
+        :root[data-theme="dark"] .btn-close {
+            filter: invert(1) grayscale(100%) brightness(200%); /* Make close button white in dark mode */
+        }
+
+
+        label {
+            color: var(--bs-body-color);
+            transition: color 0.3s ease;
+        }
+        .form-control {
+            background-color: var(--bs-input-bg);
+            color: var(--bs-input-color);
+            border-color: var(--bs-input-border-color);
+            transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+        }
+        .form-control:focus {
+            background-color: var(--bs-input-bg); /* Keep background consistent on focus */
+            color: var(--bs-input-color); /* Keep text color consistent on focus */
+            border-color: var(--bs-link-color); /* Use a themed border highlight */
+            box-shadow: 0 0 0 0.25rem rgba(var(--bs-link-color-rgb, 13, 110, 253), 0.25); /* Themed shadow */
+        }
+        :root[data-theme="dark"] .form-control:focus {
+            box-shadow: 0 0 0 0.25rem rgba(109, 170, 252, 0.25); /* Lighter blue shadow for dark mode focus */
+        }
+        .form-control::placeholder {
+            color: var(--bs-placeholder-color) !important;
+            opacity: 1 !important;
+            transition: color 0.3s ease;
+        }
+        .form-control::-webkit-input-placeholder {
+            color: var(--bs-placeholder-color) !important;
+            opacity: 1 !important;
+            transition: color 0.3s ease;
+        }
+        .form-control::-moz-placeholder {
+            color: var(--bs-placeholder-color) !important;
+            opacity: 1 !important;
+            transition: color 0.3s ease;
+        }
+        .form-control::-ms-input-placeholder {
+            color: var(--bs-placeholder-color) !important;
+            opacity: 1 !important;
+            transition: color 0.3s ease;
+        }
+
+        /* Progress Bar */
+        .progress {
+            background-color: var(--bs-input-bg);
+        }
+        .progress-bar {
+            background-color: var(--bs-link-color);
+            color: var(--bs-body-color);
+        }
+
+        /* Button Styles */
+        .btn {
+            background-color: var(--bs-link-color);
+            color: var(--bs-body-bg);
+            border: none;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: var(--bs-link-hover-color);
+        }
+        .btn-secondary {
+            background-color: var(--bs-input-bg);
+            color: var(--bs-body-color);
+            border: 1px solid var(--bs-input-border-color);
+        }
+        .btn-secondary:hover {
+            background-color: var(--bs-placeholder-color);
+        }
+
+        /* Rating Stars */
+        .rating-stars {
+            color: var(--bs-star-color);
+        }
+        .rating-stars .star {
+            color: var(--bs-placeholder-color);
+        }
+        .rating-stars .star.active {
+            color: var(--bs-star-color);
+        }
+
+        /* Specific Text Elements */
+        .learning-path-title {
+            color: var(--bs-heading-color);
+        }
+        .welcome-text {
+            color: var(--bs-body-color);
+        }
+        .step-title {
+            color: var(--bs-heading-color);
+        }
+        .step-description {
+            color: var(--bs-body-color);
+        }
+        .status {
+            color: var(--bs-body-color);
+        }
+        .completed {
+            color: var(--bs-placeholder-color);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="{{ url_for('home') }}">Victoria</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    {% if session.get('user_id') %}
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('home') }}">Dashboard</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('resource_finder') }}">Resource Finder</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('generate_path') }}">Generate Path</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('update_knowledge') }}">Update Knowledge</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('review') }}">
+                                <i class="bi bi-card-checklist"></i> Review
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('profile') }}">Profile</a>
+                        </li>
+                        {% if is_admin %}
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('admin_suggestions') }}">Admin</a>
+                        </li>
+                        {% endif %}
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('logout') }}">Logout</a>
+                        </li>
+                    {% else %}
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('login') }}">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('register') }}">Register</a>
+                        </li>
+                    {% endif %}
+                    <li class="nav-item d-flex align-items-center">
+                        <button id="theme-toggle" class="theme-toggle-button" aria-label="Toggle light and dark mode">
+                            <i class="bi bi-moon-fill" id="theme-icon"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container container-custom">
+        <main class="py-4">
+            {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                    <div class="flash-messages">
+                        {% for category, message in messages %}
+                            <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
+                                {{ message | safe }}
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            </div>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+            {% endwith %}
+            {% block content %}
+                {% endblock %}
+        </main>
+    </div>
+
+    <div class="modal fade" id="notesModal" tabindex="-1" aria-labelledby="notesModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="notesModalLabel">AI Tutor</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const themeToggleBtn = document.getElementById('theme-toggle');
+            const themeIcon = document.getElementById('theme-icon');
+            const htmlElement = document.documentElement; // This is the <html> tag
+
+            function setTheme(theme) {
+                htmlElement.setAttribute('data-theme', theme);
+                localStorage.setItem('theme', theme); // Save preference
+                if (theme === 'dark') {
+                    themeIcon.classList.remove('bi-moon-fill');
+                    themeIcon.classList.add('bi-sun-fill');
+                } else {
+                    themeIcon.classList.remove('bi-sun-fill');
+                    themeIcon.classList.add('bi-moon-fill');
+                }
+            }
+
+            const savedTheme = localStorage.getItem('theme');
+            const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+            if (savedTheme) {
+                setTheme(savedTheme);
+            } else if (prefersDark) {
+                setTheme('dark');
+            } else {
+                setTheme('light'); // Default to light if no preference
+            }
+
+            themeToggleBtn.addEventListener('click', () => {
+                const currentTheme = htmlElement.getAttribute('data-theme');
+                const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+                setTheme(newTheme);
+            });
+        });
+    </script>
+    {% block scripts %}{% endblock %}
+</body>
+</html>

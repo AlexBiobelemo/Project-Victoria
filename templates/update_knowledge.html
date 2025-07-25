@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+
+{% block title %}Update Knowledge Profile{% endblock %}
+
+{% block content %}
+    <h1 class="text-center mb-4">Update Your Knowledge Profile</h1>
+    <p class="text-center text-muted mb-4">Adjust the topics you already know to get more tailored learning paths.</p>
+
+    <form action="{{ url_for('update_knowledge') }}" method="post">
+        {{ csrf_token() }}
+        <div class="mb-4">
+            <label for="known_topics" class="form-label">Topics I Already Know (comma-separated, e.g., HTML Basics, Git & GitHub)</label>
+            <textarea class="form-control" id="known_topics" name="known_topics" rows="5" placeholder="e.g., Introduction to HTML, Python Basics, SQL Fundamentals">{{ prefill_known_topics }}</textarea>
+            <div class="form-text">This will be used to generate more personalized learning paths for you.</div>
+        </div>
+
+        <button type="submit" class="btn btn-primary w-100 btn-lg">Save Knowledge</button>
+    </form>
+{% endblock %}

@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+
+{% block title %}Suggest Resource for {{ step.step_title }}{% endblock %}
+
+{% block content %}
+    <h1 class="text-center mb-4">Suggest Resource for "{{ step.step_title }}"</h1>
+    <p class="text-center text-muted mb-4">Help improve this learning path by suggesting a high-quality resource!</p>
+
+    <form action="{{ url_for('suggest_resource', step_id=step.id) }}" method="post">
+        {{ csrf_token() }}
+        <div class="mb-3">
+            <label for="title" class="form-label">Resource Title</label>
+            <input type="text" class="form-control" id="title" name="title" placeholder="e.g., HTML Crash Course" value="{{ prefill_title }}" required>
+        </div>
+        <div class="mb-3">
+            <label for="url" class="form-label">Resource URL</label>
+            <input type="url" class="form-control" id="url" name="url" placeholder="e.g., https://www.example.com/html-tutorial" value="{{ prefill_url }}" required>
+            <div class="form-text">Provide a direct link to the resource (article, video, etc.).</div>
+        </div>
+        <div class="mb-4">
+            <label for="resource_type" class="form-label">Resource Type</label>
+            <select class="form-select" id="resource_type" name="resource_type" required>
+                <option value="article" {% if prefill_type == 'article' %}selected{% endif %}>Article</option>
+                <option value="video" {% if prefill_type == 'video' %}selected{% endif %}>Video</option>
+                <option value="tutorial" {% if prefill_type == 'tutorial' %}selected{% endif %}>Tutorial</option>
+                <option value="documentation" {% if prefill_type == 'documentation' %}selected{% endif %}>Documentation</option>
+                <option value="book" {% if prefill_type == 'book' %}selected{% endif %}>Book</option>
+                <option value="course" {% if prefill_type == 'course' %}selected{% endif %}>Course</option>
+                <option value="exercise" {% if prefill_type == 'exercise' %}selected{% endif %}>Exercise</option>
+                <option value="other" {% if prefill_type == 'other' %}selected{% endif %}>Other</option>
+            </select>
+        </div>
+
+        <button type="submit" class="btn btn-primary w-100 btn-lg">Submit Suggestion</button>
+    </form>
+{% endblock %}

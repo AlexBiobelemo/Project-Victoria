@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate of Completion</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&family=Great+Vibes&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
+    <style>
+        :root {
+            --primary-color: #0d2c4f; /* Deep Navy Blue */
+            --secondary-color: #c5a47e; /* Muted Gold */
+            --background-color: #fdfaef; /* Parchment Paper */
+            --text-color: #333333;
+        }
+
+        body {
+            font-family: 'Lato', sans-serif;
+            background-color: #e0e0e0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 2rem;
+            box-sizing: border-box;
+        }
+
+        .certificate-wrapper {
+            width: 1100px;
+            height: 850px;
+            padding: 40px;
+            background-color: var(--background-color);
+            border: 1px solid #ccc;
+            box-shadow: 0 0 20px rgba(0,0,0,0.15);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .certificate-container {
+            width: 100%;
+            height: 100%;
+            border: 10px solid var(--primary-color);
+            padding: 30px;
+            position: relative;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            background:
+                linear-gradient(45deg, var(--secondary-color) 20px, transparent 20px) 0 0,
+                linear-gradient(135deg, var(--secondary-color) 20px, transparent 20px) 100% 0,
+                linear-gradient(225deg, var(--secondary-color) 20px, transparent 20px) 0 100%,
+                linear-gradient(315deg, var(--secondary-color) 20px, transparent 20px) 100% 100%;
+            background-repeat: no-repeat;
+            background-size: 50px 50px;
+        }
+
+        .certificate-header h1 {
+            font-family: 'EB Garamond', serif;
+            font-size: 3.5rem;
+            color: var(--primary-color);
+            margin: 0;
+        }
+
+        .certificate-body {
+            margin: 40px 0;
+        }
+
+        .recipient-text {
+            font-size: 1.25rem;
+            color: var(--text-color);
+            margin: 20px 0;
+        }
+
+        .recipient-name {
+            font-family: 'Great Vibes', cursive;
+            font-size: 4rem;
+            color: var(--secondary-color);
+            margin: 10px 0;
+            font-weight: bold;
+        }
+
+        .learning-path-label {
+            font-size: 1.1rem;
+            color: var(--text-color);
+            margin-top: 30px;
+        }
+
+        .learning-path {
+            font-family: 'EB Garamond', serif;
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            font-weight: 700;
+            margin: 10px 0;
+        }
+
+        .final-project-text {
+            font-size: 1rem;
+            color: #555;
+            margin-top: 20px;
+            max-width: 80%;
+            /* Fix for center alignment */
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .certificate-footer {
+            margin-top: auto;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            padding: 0 20px;
+        }
+
+        .footer-item {
+            flex: 1;
+            text-align: center;
+        }
+
+        .signature-image {
+            height: 60px;
+            margin-bottom: -10px;
+        }
+
+        .signature-line {
+            border-top: 2px solid var(--primary-color);
+            margin-top: 5px;
+            padding-top: 5px;
+            font-family: 'EB Garamond', serif;
+            font-size: 1rem;
+            color: var(--primary-color);
+            font-weight: bold;
+        }
+
+        .issuing-authority {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .seal {
+            width: 120px;
+            height: 120px;
+            background-color: var(--secondary-color);
+            border: 5px solid var(--primary-color);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: var(--primary-color);
+            font-family: 'EB Garamond', serif;
+            font-weight: bold;
+            text-align: center;
+            font-size: 1.2rem;
+            line-height: 1.2;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+            margin-bottom: 10px;
+        }
+
+        .download-button {
+            margin-top: 30px;
+            padding: 15px 30px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: #fff;
+            background-color: #28a745;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .download-button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="certificateToPrint" class="certificate-wrapper">
+        <div class="certificate-container">
+            <header class="certificate-header">
+                <h1>Certificate of Completion</h1>
+            </header>
+
+            <main class="certificate-body">
+                <p class="recipient-text">This certificate is proudly presented to</p>
+                <h2 class="recipient-name">{{ submission.author.first_name }} {{ submission.author.last_name }}</h2>
+                <p class="recipient-text">for successfully completing the learning path</p>
+                <h3 class="learning-path">{{ submission.path.goal_title }}</h3>
+                <p class="final-project-text">and demonstrating outstanding practical skills through the submission of a final project.</p>
+            </main>
+
+            <footer class="certificate-footer">
+                <div class="footer-item">
+                    <img src="https://i.ibb.co/6y45F2X/signature-placeholder.png" alt="Signature" class="signature-image">
+                    <div class="signature-line">Alex <br>(Head of Instruction)</div>
+                </div>
+                <div class="footer-item issuing-authority">
+                    <div class="seal">
+                        ALEX50x <br> VERIFIED <br> LEARNING
+                    </div>
+                    <div class="signature-line">Issuing Authority</div>
+                </div>
+                <div class="footer-item">
+                    <p style="font-size: 1.2rem; font-family: 'EB Garamond', serif; margin: 0 0 5px 0;">{{ submission.completed_at.strftime('%B %d, %Y') }}</p>
+                    <div class="signature-line">Date of Completion</div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <button id="downloadButton" class="download-button">Download as PDF</button>
+
+    <script>
+        document.getElementById('downloadButton').addEventListener('click', function() {
+            const certificate = document.getElementById('certificateToPrint');
+            const downloadBtn = document.getElementById('downloadButton');
+            const studentName = '{{ submission.author.first_name }}_{{ submission.author.last_name }}';
+            const courseName = '{{ submission.path.goal_title | replace(" ", "_") }}';
+
+            const opt = {
+                margin:       0,
+                filename:     `Certificate_${studentName}_${courseName}.pdf`,
+                image:        { type: 'jpeg', quality: 0.98 },
+                html2canvas:  { scale: 2, useCORS: true },
+                jsPDF:        { unit: 'in', format: 'letter', orientation: 'landscape' }
+            };
+
+            // Prepare the page for a clean capture
+            downloadBtn.style.display = 'none';
+            const originalBodyBg = document.body.style.backgroundColor;
+            document.body.style.backgroundColor = '#FFFFFF';
+
+            // Generate the PDF and then restore the page
+            html2pdf().set(opt).from(certificate).save().then(function () {
+                // This runs after the PDF is generated
+                downloadBtn.style.display = 'block';
+                document.body.style.backgroundColor = originalBodyBg;
+            });
+        });
+    </script>
+</body>
+</html>

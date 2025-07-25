@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+    {% if session.get('user_id') %}
+        <h1>Welcome, {{ user.username }}!</h1>
+        <p>This is your personalized learning dashboard.</p>
+        <p>Your current learning paths will appear here.</p>
+        <p>Ready to define a new learning goal?</p>
+    {% else %}
+        <h1 class="text-center">Learn with Victoria</h1>
+        <p class="text-center">Unlock your potential with personalized learning paths curated just for you.</p>
+        <p class="text-center">Please <a href="{{ url_for('login') }}">Login</a> or <a href="{{ url_for('register') }}">Register</a> to get started.</p>
+    {% endif %}
+{% endblock %}

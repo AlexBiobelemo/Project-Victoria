@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+
+{% block title %}Admin: Resource Suggestions{% endblock %}
+
+{% block content %}
+    <h1 class="mb-4">Admin Panel: Resource Suggestions</h1>
+    <p class="text-muted">Review and manage suggested learning resources.</p>
+
+    {% if suggestions %}
+        <div class="list-group">
+            {% for suggestion in suggestions %}
+                <div class="list-group-item list-group-item-action mb-3 shadow-sm">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">{{ suggestion.title }}</h5>
+                          <small class="text-muted">{{ suggestion.suggested_at.strftime('%Y-%m-%d %H:%M') }}</small>
+                    </div>
+                    <p class="mb-1"><strong>URL:</strong> <a href="{{ suggestion.url }}" target="_blank">{{ suggestion.url }}</a></p>
+                    <p class="mb-1"><strong>Type:</strong> <span class="badge bg-info">{{ suggestion.resource_type | title }}</span></p>
+                    <p class="mb-1"><strong>For Step:</strong> {{ suggestion.step_title }}</p>
+                    <p class="mb-1"><strong>Suggested by:</strong> {{ suggestion.suggester_username }}</p>
+                    <p class="mb-1"><strong>Status:</strong> <span class="badge bg-warning text-dark">{{ suggestion.status | upper }}</span></p>
+
+                    <div class="d-flex justify-content-end mt-3">
+                        <a href="{{ url_for('approve_suggestion', suggestion_id=suggestion.id) }}" class="btn btn-sm btn-success me-2">Approve <i class="bi bi-check-circle"></i></a>
+                        <a href="{{ url_for('reject_suggestion', suggestion_id=suggestion.id) }}" class="btn btn-sm btn-danger">Reject <i class="bi bi-x-circle"></i></a>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    {% else %}
+        <div class="alert alert-info" role="alert">
+            No pending resource suggestions at the moment.
+        </div>
+    {% endif %}
+{% endblock %}

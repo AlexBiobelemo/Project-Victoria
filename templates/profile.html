@@ -1,0 +1,71 @@
+{% extends "layout.html" %}
+
+{% block title %}Your Profile{% endblock %}
+
+{% block content %}
+    <h1 class="mb-4">Your Profile</h1>
+
+    <div class="card mb-4 shadow-sm">
+        <div class="card-body">
+            <h4 class="card-title">My Learning Paths</h4>
+            {% if learning_paths %}
+                <ul class="list-group list-group-flush">
+                    {% for path in learning_paths %}
+                        <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                            <span class="mb-2 mb-md-0"><strong>{{ path.goal_title }}</strong> (Created: {{ path.created_at.strftime('%Y-%m-%d') }})</span>
+
+                            <div class="mt-2 mt-md-0">
+                                <a href="{{ url_for('view_specific_path', path_id=path.id) }}" class="btn btn-sm btn-outline-primary">View Path</a>
+
+
+
+                                <a href="{{ url_for('export_notes', path_id=path.id) }}" class="btn btn-sm btn-info ms-2">
+                                    <i class="bi bi-download"></i> Export Notes
+                                </a>
+
+                                {# This block only shows if a certificate exists for this path #}
+                                {% if path.submission and path.submission.certificate_id %}
+                                    <a href="{{ url_for('view_certificate', certificate_id=path.submission.certificate_id) }}" class="btn btn-sm btn-success ms-2">
+                                        <i class="bi bi-trophy-fill"></i> View Certificate
+                                    </a>
+                                {% endif %}
+                            </div>
+
+                        </li>
+                    {% endfor %}
+                </ul>
+            {% else %}
+                <p class="card-text text-muted">You haven't generated any learning paths yet. <a href="{{ url_for('generate_path') }}">Define your first goal!</a></p>
+            {% endif %}
+        </div>
+    </div>
+
+    <div class="card mb-4 shadow-sm">
+        <div class="card-body">
+            <h4 class="card-title">My Portfolio</h4>
+            <p class="card-text text-muted">Showcase your completed projects to the world.</p>
+            <a href="{{ url_for('portfolio', username=user.username) }}" class="btn btn-primary">View My Public Portfolio</a>
+        </div>
+    </div>
+
+    <div class="card mb-4 shadow-sm">
+        <div class="card-body">
+            <h4 class="card-title">My Progress</h4>
+            <p class="card-text fs-5"><strong>Total Points:</strong> {{ user.points }}</p>
+            <h5 class="mt-4">My Badges</h5>
+            <div class="d-flex flex-wrap">
+                {% if user.badges %}
+                    {% for badge in user.badges %}
+                        <div class="text-center p-2" title="{{ badge.description }}">
+                            <i class="{{ badge.icon }} fs-1 text-primary"></i>
+                            <p class="mb-0 small">{{ badge.name }}</p>
+                        </div>
+                    {% endfor %}
+                {% else %}
+                    <p class="text-muted">No badges earned yet. Complete some learning steps to get started!</p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
