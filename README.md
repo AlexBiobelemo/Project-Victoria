@@ -1,9 +1,10 @@
-Alex Alagoa Biobelemo
-Project Victoria
+# Alex Alagoa Biobelemo
+# Project Victoria
 Video Demo: https://youtu.be/UtwMr1kedbc?si=0ClIGWv32-Wo-ZXM
 
 Victoria is a full-stack web application engineered to solve a fundamental challenge in self-directed learning: creating a clear, effective, and personalized educational roadmap. The platform empowers users to define a learning goal, and in response, it generates a dynamic, step-by-step curriculum complete with resources and practical challenges. It moves beyond static content by integrating a locally-run Large Language Model (LLM) to provide a context-aware AI Tutor, a neuroscience-based Spaced Repetition System (SRS) for knowledge retention, and a portfolio system to showcase projects.
-Key Features
+
+# Key Features
  * Dynamic Path Generation: A custom algorithm builds a unique, multi-step curriculum tailored to a user's goal.
  * AI-Powered Tutor: A context-aware chatbot, powered by a local Ollama LLM, provides explanations and guidance.
  * Spaced Repetition System (SRS): The application automatically generates flashcards for completed topics to enhance long-term memory.
@@ -13,7 +14,7 @@ Key Features
  * Comprehensive Security: Hardened against Cross-Site Scripting (XSS) and Cross-Site Request Forgery (CSRF).
  * Light & Dark Mode: A seamless, persistent light/dark theme toggle for user comfort.
 
-Architecture & Design Decisions
+# Architecture & Design Decisions
  * Local LLM vs. Cloud APIs: A core strategic decision was to use a locally-run LLM via Ollama to ensure zero operational costs, 100% user data privacy, and offline functionality.
  * SQLAlchemy ORM vs. Raw SQL: The SQLAlchemy ORM provides robust protection against SQL injection, allows for managing the database schema through clean Python classes, and makes the application portable from SQLite to PostgreSQL.
  * Server-Side Security: Security was treated as a foundational requirement. All forms are protected with Flask-WTF CSRF tokens, and all rendered user content is sanitized with Bleach to prevent XSS attacks.
@@ -73,10 +74,10 @@ License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 
-Contributing
+# Contributing
 Contributions are welcome! If you have ideas for new features, feel free to open an issue to discuss what you would like to change. The easiest way to contribute is by expanding the curriculum. You can do this by adding new topics, resources, or problems to the .csv data files and submitting a pull request.
 
-Acknowledgements
+# Acknowledgements
  * Inspiration: A special thank you to Harvard University > CS50x > Professor David J. Malan for providing a world-class education that inspired this project's creation. I am truly grateful and God bless you even more.
 
  * AI Assistants:
