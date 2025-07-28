@@ -1,5 +1,4 @@
-# Alex Alagoa Biobelemo
-# Project Victoria
+# Project Victoria: Utlizing Local LLM with Personalized Learning 
 Video Demo: https://youtu.be/UtwMr1kedbc?si=0ClIGWv32-Wo-ZXM
 
 Victoria is a full-stack web application engineered to solve a fundamental challenge in self-directed learning: creating a clear, effective, and personalized educational roadmap. The platform empowers users to define a learning goal, and in response, it generates a dynamic, step-by-step curriculum complete with resources and practical challenges. It moves beyond static content by integrating a locally-run Large Language Model (LLM) to provide a context-aware AI Tutor, a neuroscience-based Spaced Repetition System (SRS) for knowledge retention, and a portfolio system to showcase projects.
